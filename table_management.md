@@ -4,7 +4,7 @@ You can see existing Tables to which you have access by clicking the â€œTablesâ€
 
 
 - [Adding Tables](#adding-tables)
-- [Modifying Tables](modifying-tables)
+- [Modifying Tables](#modifying-tables)
 
 
 <a name="adding-tables"></a>
