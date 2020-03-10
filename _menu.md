@@ -19,3 +19,6 @@
 
 - ## Connections
     - [Creating Connections](/docs/{{version}}/creating_connections)
+
+- ## Tasks
+    - [Talend Tasks](/docs/{{version}}/talend_tasks)
