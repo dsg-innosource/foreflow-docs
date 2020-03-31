@@ -10,4 +10,15 @@
     - [Table Properties](/docs/{{version}}/table_properties)
     - [Table Columns](/docs/{{version}}/table_columns)
 
+- ## Reports
+    - [Creating Reports](/docs/{{version}}/creating_reports)
+    - [Running Reports](/docs/{{version}}/running_reports)
+    - [Report Parameters](/docs/{{version}}/report_parameters)
+    - [Report Connections](/docs/{{version}}/report_connections)
+    - [Report Distribution](/docs/{{version}}/report_distribution)
 
+- ## Connections
+    - [Creating Connections](/docs/{{version}}/creating_connections)
+
+- ## Tasks
+    - [Talend Tasks](/docs/{{version}}/talend_tasks)
