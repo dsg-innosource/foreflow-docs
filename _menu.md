@@ -9,6 +9,7 @@
     - [Table Management](/docs/{{version}}/table_management)
     - [Table Properties](/docs/{{version}}/table_properties)
     - [Table Columns](/docs/{{version}}/table_columns)
+    - [Data Export](/docs/{{version}}/table_data_export)
 
 - ## Reports
     - [Creating Reports](/docs/{{version}}/creating_reports)
