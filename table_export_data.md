@@ -2,7 +2,7 @@
  
 You may want to download data from a foreflow table to analyze it in Excel or use it in another application or system.  To do this, use the **Export Data** feature.
  
-Navigate to the table from which you want to export data, and click on the **Export Data** icon.  It looks like this:
+Navigate to the table from which you want to export data, and click on the **Export Data** icon:
  
 (image here)
  
