@@ -89,11 +89,23 @@ Here you can choose whether or not the users of this grid will have the ability 
 
 ## Relationships
 
-The Relationships section allows you to define relationships between tables.
+The **Relationships** section allows you to define relationships between the primary table to which these properties apply and the other tables to which you have access.
+
+When you click on the **Add Relationships** button a window pops up that expands step-by-step as you explain the relationship through the various drop down lists.
+
+![tables-properties-add-relationships](img/tables-properties-add-relationships.png)
+
+The **Source Column** drop down allows you to choose from the columns in the primary table to which this **Properties** page belongs.
+
+The **Related Table** allows you to choose from the other tables in your collection of tables.
+
+The **Related Column** drop down allows you to choose from the columns in the related table you have selected.
+
+The **Relationship Type** allows you to choose how this column relates to your primary table.  You answer whether this column **Has Many** values that are stored in your primary table or whether it **Belongs To** your primary table and is referred to in the selected, related column.
 
 ## Forms
 
-
+The **Forms** section ...
 
 ## Columns
 
