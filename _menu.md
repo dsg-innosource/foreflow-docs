@@ -23,3 +23,6 @@
 
 - ## Tasks
     - [Talend Tasks](/docs/{{version}}/talend_tasks)
+
+- ## API
+    - [API](/docs/{{version}}/api)
