@@ -23,3 +23,6 @@
 
 - ## Tasks
     - [Talend Tasks](/docs/{{version}}/talend_tasks)
+    - 
+- ## Dashboards
+    - [Dashboards Overview](/docs/{{version}}/dashboards_overview)
