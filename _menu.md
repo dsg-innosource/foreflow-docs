@@ -29,3 +29,6 @@
 
 - ## API
     - [API](/docs/{{version}}/api)
+  
+- ## Dashboards
+    - [Dashboards Overview](/docs/{{version}}/dashboards_overview)
