@@ -5,6 +5,11 @@
     - [Logging In](/docs/{{version}}/logging_in)
     - [Navigation](/docs/{{version}}/navigation)
 
+- ## Users
+    - [Creating Users](/docs/{{version}}/creating_users)
+    - [Editing Users](/docs/{{version}}/editing_users)
+    - [Applying Permissions to Users](/docs/{{version}}/user_permissions)
+  
 - ## Tables
     - [Table Management](/docs/{{version}}/table_management)
     - [Table Properties](/docs/{{version}}/table_properties)
