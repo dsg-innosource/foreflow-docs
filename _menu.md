@@ -11,6 +11,9 @@
     - [Table Columns](/docs/{{version}}/table_columns)
     - [Data Export](/docs/{{version}}/table_data_export)
 
+- ## Datasets
+    - [Overview](/docs/{{version}}/dataset_overview)
+
 - ## Reports
     - [Creating Reports](/docs/{{version}}/creating_reports)
     - [Running Reports](/docs/{{version}}/running_reports)
