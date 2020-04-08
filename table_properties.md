@@ -64,7 +64,15 @@ This is where you can select one of the columns on the table as your default sor
 
 ### Email Import
 
-Here you will find a place to upload a data file to populate this table with data and map the columns from that data file to the columns in the table.
+Here you will be configuring a way to either append or replace data in your table by means of an email attachment.  When you click on the **Configure Email Import** button a pop up will appear which contains an interactive file upload box.  When you either drop or select a data file with headers a number of things occur.
+
+- Foreflow generates a **table-specific** email address of this pattern **[Universally_Unique_ID]@[your_Foreflow_domain].com**.  You will need to use this address to append or replace formatted data in your table
+
+- Foreflow attempts to match the headers on that formatted data file to the columns in your table.  Foreflow makes an interface available which allows you to adjust those matches that foreflow cannot match on its own.
+
+- Foreflow asks you to choose whether you want this formatted file to **Append To** or to **Replace** the data in your table.
+
+When you attach a formatted data file to an email to the foreflow generated address, foreflow will either append of replace the data in your table with the data in your file, depending on the action you configured.
 
 ### Use Client Side Data Viewer
 
@@ -105,7 +113,13 @@ The **Relationship Type** allows you to choose how this column relates to your p
 
 ## Forms
 
-The **Forms** section ...
+The **Forms** section provides a way for you inject form options into your table actions.  
+
+- One usecase is to generate a form for fields within your table that may have business logic associated with them.  
+    - For example: You might like to make available a **Hire Form** only when an employee record has a **Status** such as **Candidate** in the **Employees** table.
+
+- Another usecase is to display a form for a table with a **Has Many** relationship to the selected table.  
+    - For example: You might like to add or edit one or more records in the related **Emergency Contact** table by means of the **Manage Emergency Contacts** Form from the **Employees** table.
 
 ## Columns
 
