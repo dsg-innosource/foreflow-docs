@@ -29,6 +29,9 @@
 - ## Connections
     - [Creating Connections](/docs/{{version}}/creating_connections)
 
+- ## Orchestration
+    - [Overview](/docs/{{version}}/orchestration_overview)
+  
 - ## Tasks
     - [Talend Tasks](/docs/{{version}}/talend_tasks)
 
