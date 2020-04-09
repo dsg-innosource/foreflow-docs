@@ -181,7 +181,7 @@ In the top 4 definitions, _foreflow_ gives you the ability to name and configure
 
  The **Type** options that _foreflow_ offers are **Standard**, **Reference** and **Calculated**.  Each of these **Types** has its own set of definition options that _foreflow_ dynamically displays depending on which **Type** you select.
 
-> #### Standard Definition Options
+> #### Standard-Type Definition Options
 >
 > - #### Column Type
 >
@@ -195,7 +195,7 @@ In the top 4 definitions, _foreflow_ gives you the ability to name and configure
 >
 >   This toggle lets you tell _foreflow_ whether or not to allow a value to exist more than once in this column.
 >
-> #### Reference Definition Options
+> #### Reference-Type Definition Options
 >
 > - #### Table
 >
@@ -209,7 +209,7 @@ In the top 4 definitions, _foreflow_ gives you the ability to name and configure
 >
 >   This toggle gives you the power to tell _foreflow_ whether or not this column can have, literally, nothing in it.
 >
-> #### Calculated Definition Options
+> #### Calculated-Type Definition Options
 >
 > - #### Expression
 >
