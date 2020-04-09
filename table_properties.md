@@ -219,7 +219,7 @@ Clicking the **Add Form** button opens up a multi-section **Create Form** page.
 
     - The **Use Two Column Layout**  toggle provides you with twice the data-gathering capacity in the same amount of form space.
 
-    - The **Edit Existing Records** toggle gives you section level data security
+    - The **Edit Existing Records** toggle gives you the ability to chose between whether a user is entering new data or editing data that already exists in the system
 
     - The **Allow Multiple Insert** toggle lets you offer the power of the **Has Many** relationship, to your end-users, at their discretion, on a record by record level.
 
