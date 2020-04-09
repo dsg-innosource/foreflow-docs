@@ -119,10 +119,10 @@ The **Relationship Type** allows you to choose how a selected table relates to y
 
 The **Forms** section provides a way for you inject form options into your table actions.  
 
-- One usecase is to generate a form for fields within your table that may have business logic associated with them.  
+- One use case is to generate a form for fields within your table that may have business logic associated with them.  
     - For example: You might like to make available a **Hire Form** only when an employee record has a **Status** such as **Candidate** in the **Employees** table.
 
-- Another usecase is to display a form for a table with a **Has Many** relationship to the selected table.  
+- Another use case is to display a form for a table with a **Has Many** relationship to the selected table.  
     - For example: You might like to add or edit one or more records in the related **Emergency Contact** table by means of the **Manage Emergency Contacts** Form from the **Employees** table.
 
 ## Columns
