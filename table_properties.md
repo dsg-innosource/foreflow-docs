@@ -109,7 +109,11 @@ The **Related Table** allows you to choose from the other tables in your collect
 
 The **Related Column** drop down allows you to choose from the columns in the related table you have selected.
 
-The **Relationship Type** allows you to choose how this column relates to your primary table.  You answer whether this column **Has Many** values that are stored in your primary table or whether it **Belongs To** your primary table and is referred to in the selected, related column.
+The **Relationship Type** allows you to choose how a selected table relates to your primary table by their respective **RELATED** and **Source** columns.  
+
+- Does the selected table with a **Has Many** relationship have multiple records that store the **SOURCE COLUMN** value of your table in its **RELATED COLUMN**? 
+
+- Does your primary table have a **RELATED COLUMN** that is storing a value of a **SOURCE COLUMN** that **Belongs To** the **RELATED TABLE** you selected?.
 
 ## Forms
 
