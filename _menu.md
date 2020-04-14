@@ -4,7 +4,7 @@
 
 -   ## Getting Started
 
-    -   [Logging In](/docs/{{version}}/logging-in)
+    -   [Authentication](/docs/{{version}}/authentication)
     -   [Navigation](/docs/{{version}}/navigation)
 
 -   ## Users

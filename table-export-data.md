@@ -1,11 +1,17 @@
 # Exporting Data from a Table
 
-You may want to download data from a foreflow table to analyze it in Excel or use it in another application or system. To do this, use the **Export Data** feature.
+-   [Introduction](#introduction)
 
-Navigate to the table from which you want to export data, and click on the **Export Data** icon:
+<a name="introduction"></a>
 
-(image here)
+## Introduction
 
-The export process is different depending on the **Table Properties** setup. If the **Use Client Side Data Viewer** setting for the table from which you are exporting data is set to **False**, you will then see a dialog box appear with **Queue Export** and **Cancel** options. When you select **Queue Export**, foreflow schedules a **Task** that exports the data. When foreflow completes the export, you will receive an email with a **Download File** link. Clicking this will download your data in .xlsx format.
+You may want to download data from a foreflow table to analyze it in Excel or use it in another application or system. To do this, use the _Export Data_ feature.
 
-If the **Use Client Side Data Viewer** setting for the table from which you are exporting data is set to **True**, the data you've selected will download immediately in .xlsx format.
+Navigate to the table from which you want to export data, and click on the _Export Data_ icon:
+
+_(image coming soon)_
+
+The export process is different depending on the _Table Properties_ setup. If the _Use Client Side Data Viewer_ setting for the table from which you are exporting data is set to _False_, you will then see a dialog box appear with _Queue Export_ and _Cancel_ options. When you select _Queue Export_, foreflow schedules a _Task_ that exports the data. When foreflow completes the export, you will receive an email with a _Download File_ link. Clicking this will download your data in .xlsx format.
+
+If the _Use Client Side Data Viewer_ setting for the table from which you are exporting data is set to _True_, the data you've selected will download immediately in .xlsx format.

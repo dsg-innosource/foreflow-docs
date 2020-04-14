@@ -1,6 +1,16 @@
 # API
 
+-   [Introduction](#introduction)
+-   [Creating API Keys](#creating-api-keys)
+-   [Using an API Key](#using-an-api-key)
+
+<a name="introduction"></a>
+
+## Introduction
+
 Foreflow exposes an API that can be used to obtain data from the foreflow instance. In order to access the API, you will need to create an API key within your foreflow instance. API keys can be managed by clicking the "API Keys" link in the navigation menu.
+
+<a name="creating-api-keys"></a>
 
 ## Creating API Keys
 
@@ -9,6 +19,8 @@ To create a new API key, click the "Add API Key" button on the API Keys page. Th
 Once an API Key is generated, foreflow will only display the key one time. You should copy the key, and store it in a secure location.
 
 API keys expire one year after they were created.
+
+<a name="using-an-api-key"></a>
 
 ## Using an API Key
 
