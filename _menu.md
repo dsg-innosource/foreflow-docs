@@ -14,7 +14,7 @@
     - [Table Management](/docs/{{version}}/table-management)
     - [Table Properties](/docs/{{version}}/table-properties)
     - [Table Columns](/docs/{{version}}/table-columns)
-    - [Data Export](/docs/{{version}}/table-data-export)
+    - [Data Export](/docs/{{version}}/table-export-data)
 
 - ## Datasets
     - [Overview](/docs/{{version}}/dataset-overview)
