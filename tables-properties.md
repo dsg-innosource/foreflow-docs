@@ -70,39 +70,31 @@ Here you will find editing options for users with sufficient rights.
 
 <a name="cell"></a>
 
-#### Cell
+- **Cell** &mdash; When you select the _Cell_ option, the user can click on a cell to update it. The active cell is underlined.
 
-When you select the _Cell_ option, the user can click on a cell to update it. The active cell is underlined.
-
--   To _Accept_ the change click the _check mark_.
--   To _Cancel_ the edit click the _X_.
+    -   To _Accept_ the change click the _check mark_.
+    -   To _Cancel_ the edit click the _X_.
 
 <a name="row"></a>
 
-#### Row
+- **Row** &mdash; When you select the _Row_ option, the user must select the edit icon before clicking on a cell to update it. The active cell is underlined.
 
-When you select the _Row_ option, the user must select the edit icon before clicking on a cell to update it. The active cell is underlined.
-
--   To _Accept_ the change click the _check mark_.
--   To _Cancel_ the edit click the _X_.
+    -   To _Accept_ the change click the _check mark_.
+    -   To _Cancel_ the edit click the _X_.
 
 <a name="inline-form"></a>
 
-#### Inline Form
+- **Inline Form** &mdash; When you select the _Inline Form_ option, clicking the edit icon will replace the line with a form for the user to edit. The active cell is underlined.
 
-When you select the _Inline Form_ option, clicking the edit icon will replace the line with a form for the user to edit. The active cell is underlined.
-
--   To _Accept_ the change click the _check mark_.
--   To _Cancel_ the edit click the _X_.
+    -   To _Accept_ the change click the _check mark_.
+    -   To _Cancel_ the edit click the _X_.
 
 <a name="pop-up-form"></a>
 
-#### Pop-up Form
+- **Pop-up Form** &mdash; When you select the _Pop-up Form_ option, clicking the edit icon will open a pop-up window form for the user to edit.
 
-When you select the _Pop-up Form_ option, clicking the edit icon will open a pop-up window form for the user to edit.
-
--   To _Accept_ the change click the _Save_ button.
--   To _Cancel_ the edit click the _Cancel_ button.
+    -   To _Accept_ the change click the _Save_ button.
+    -   To _Cancel_ the edit click the _Cancel_ button.
 
 <a name="default-sort"></a>
 
@@ -112,9 +104,7 @@ This is where you can select one of the columns on the table as your default sor
 
 <a name="sort-direction"></a>
 
-#### Sort Direction
-
-When you select either _Ascending_ or _Descending_ this direction is applied to the _Default Sort_ column that you have selected.
+- **Sort Direction** &mdash; When you select either _Ascending_ or _Descending_ this direction is applied to the _Default Sort_ column that you have selected.
 
 <a name="email-import"></a>
 
@@ -174,33 +164,23 @@ When you click on the _Add Relationship_ button a window pops up that expands st
 
 <a name="source-column"></a>
 
-#### Source Column
-
-The _Source Column_ drop-down allows you to choose from the columns in the primary table to which this _Properties_ page belongs.
+- **Source Column** &mdash; The _Source Column_ drop-down allows you to choose from the columns in the primary table to which this _Properties_ page belongs.
 
 <a name="related-table"></a>
 
-#### Related Table
-
-The _Related Table_ allows you to choose from the other tables in your collection of tables.
+- **Related Table** &mdash; The _Related Table_ allows you to choose from the other tables in your collection of tables.
 
 <a name="related-column"></a>
 
-#### Related Column
-
-The _Related Column_ drop-down allows you to choose from the columns in the related table you have selected.
+- **Related Column** &mdash; The _Related Column_ drop-down allows you to choose from the columns in the related table you have selected.
 
 <a name="relationship-type"></a>
 
-#### Relationship Type
-
-The _Relationship Type_ allows you to choose how a selected table relates to your primary table by their respective _Related_ and _Source_ columns.
+- **Relationship Type** &mdash; The _Relationship Type_ allows you to choose how a selected table relates to your primary table by their respective _Related_ and _Source_ columns.
 
 <a name="has-many"></a>
 
-#### Has Many
-
--   Does the _Related Table_ with a _Has Many_ relationship have multiple records that store the _Source Column_ value of your table in its _Related Column_?
+- **Has Many** &mdash; Does the _Related Table_ with a _Has Many_ relationship have multiple records that store the _Source Column_ value of your table in its _Related Column_?
 
 <a name="belongs-to"></a>
 
@@ -230,37 +210,37 @@ Clicking the _Add Form_ button opens up a multi-section _Create Form_ page.
 
 <a name="details"></a>
 
-### Details
+#### Details
 
 -   In the first section, _Details_, you can name and describe the form that you are creating.
 
 <a name="access"></a>
 
-### Access
+#### Access
 
 -   In the second section, _Access_, you have a way to add business logic based on the value of a selected column in your table.
 
 <a name="design"></a>
 
-### Design
+#### Design
 
--   The third section, _Design_, provides a simple yet powerful design tool with the flexibility for you to specify the targeted information you want to gather. It also gives you the ability to logically group this targeted information, across multiple tables, by using the _Add Section_ button.
+The third section, _Design_, provides a simple yet powerful design tool with the flexibility for you to specify the targeted information you want to gather. It also gives you the ability to logically group this targeted information, across multiple tables, by using the _Add Section_ button.
 
--   The _Table_ select box lets you select the table you want to fill.
+- **Table** &mdash; This select box lets you select the table you want to fill.
 
     -   In one use case, you might want to select the current table to fill in columns that you have hidden in your table details.
 
     -   In another use case, you could select a different table you want to have as a collection point for additional data that is related to a specific record in your primary table.
 
--   The _Section Title_ gives you the ability to logically label this section of your form.
+- **Section Title** &mdash; This gives you the ability to logically label this section of your form.
 
--   The _Use Two Column Layout_ toggle provides you with twice the data-gathering capacity in the same amount of form space.
+- **Use Two Column Layout** &mdash; This toggle provides you with twice the data-gathering capacity in the same amount of form space.
 
--   The _Edit Existing Records_ toggle gives you the ability to chose between whether a user is entering new data or editing data that already exists in the system
+- **Edit Existing Records** &mdash; This toggle gives you the ability to chose between whether a user is entering new data or editing data that already exists in the system
 
--   The _Allow Multiple Insert_ toggle lets you offer the power of the _Has Many_ relationship, to your end-users, at their discretion, on a record by record level.
+- **Allow Multiple Insert** &mdash; This toggle lets you offer the power of the _Has Many_ relationship, to your end-users, at their discretion, on a record by record level.
 
--   The _Fields in Section_ "Drag and Drop" design box, in conjunction with the _Available Columns_ list, gives you the ability to select, order and arrange the columns you want to show to the end-users of this form.
+- **Fields in Section** &mdash; This "Drag and Drop" design box, in conjunction with the _Available Columns_ list, gives you the ability to select, order and arrange the columns you want to show to the end-users of this form.
 
 <a name="column-properties-section"></a>
 
@@ -280,29 +260,13 @@ Clicking the _Add Column_ button will open a dynamic _Add Column_ dialog box wit
 
 In the top 4 definitions, you have the ability to name and configure the display features of your new column
 
-<a name="name"></a>
+- **Name** &mdash; This is the identifying label that you want to use to reference this column in this table.
 
-#### Name
+- **Friendly Name** &mdash; This is the end-user focused label that you want to display for this column.
 
-This is the identifying label that you want to use to reference this column in this table.
+- **Alignment** &mdash; This select box allows you to tell how you want the orientation of the cell data for this column to be displayed.
 
-<a name="friendly-name"></a>
-
-#### Friendly Name
-
-This is the end-user focused label that you want to display for this column.
-
-<a name="alignment"></a>
-
-#### Alignment
-
-This select box allows you to tell how you want the orientation of the cell data for this column to be displayed.
-
-<a name="sequence"></a>
-
-#### Sequence
-
-This select box gives you the power to set the order in which you want to display this column.
+- **Sequence** &mdash; This select box gives you the power to set the order in which you want to display this column.
 
 <a name="type-based-column-definitions"></a>
 
@@ -314,23 +278,11 @@ The _Type_ options are _Standard_, _Reference_ and _Calculated_. Each of these _
 
 #### Standard-Type Definition Options
 
-<a name="column-type"></a>
+- **Column Type** &mdash; This drop-down allows you to set the type of data that you want to enforce in this column.
 
-#### Column Type
+- **Column is nullable** &mdash; This toggle gives you the power to tell whether or not this column can have, literally, nothing in it.
 
-This drop-down allows you to set the type of data that you want to enforce in this column.
-
-<a name="column-is-nullable"></a>
-
-#### Column is nullable
-
-This toggle gives you the power to tell whether or not this column can have, literally, nothing in it.
-
-<a name="column-is-unique"></a>
-
-#### Column is unique
-
-This toggle lets you tell whether or not to allow a value to exist more than once in this column.
+- **Column is unique** &mdash; This toggle lets you tell whether or not to allow a value to exist more than once in this column.
 
 <a name="reference-type-definition-options"></a>
 
@@ -338,31 +290,21 @@ This toggle lets you tell whether or not to allow a value to exist more than onc
 
 <a name="table"></a>
 
-#### Table
-
-This select-box allows you to tell which table to use to get the data you want it to display in this column.
+- **Table** &mdash; This select-box allows you to tell which table to use to get the data you want it to display in this column.
 
 <a name="column"></a>
 
-#### Column
-
-This select box lets your tell which column has the data, from the selected reference table, that you want to use to fill this column.
+- **Column** &mdash; This select box lets your tell which column has the data, from the selected reference table, that you want to use to fill this column.
 
 <a name="column-is-nullable"></a>
 
-#### Column is nullable
-
-This toggle gives you the power to tell whether or not this column can have, literally, nothing in it.
+- **Column is nullable** &mdash; This toggle gives you the power to tell whether or not this column can have, literally, nothing in it.
 
 <a name="calculated-type-definition-options"></a>
 
 #### Calculated-Type Definition Options
 
-<a name="expression"></a>
-
-#### Expression
-
-This code box lets you use [MySQL Functions](https://www.w3schools.com/sql/sql_ref_mysql.asp) to create the calculation statement, that results in a single "scalar value", to return for display in this column.
+- **Expression** &mdash; This code box lets you use [MySQL Functions](https://www.w3schools.com/sql/sql_ref_mysql.asp) to create the calculation statement, that results in a single "scalar value", to return for display in this column.
 
 <a name="tags-section"></a>
 

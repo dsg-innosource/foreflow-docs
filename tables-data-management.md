@@ -1,5 +1,6 @@
 # Data Management
 
+- [Introduction](#introduction)
 - [Management Header](#management-header)
     - [Column Level Grouping](#column-level-grouping)
     - [Add Row](#add-row)
@@ -7,9 +8,9 @@
     - [Column Chooser](#column-chooser)
     - [Search ...](#Search-...)
 - [Server-Side Data Viewer](#server-side-data-viewer)
-    - [Server Side Header](#server-side-header)
-    - [Server Side Body](#server-side-body)
-    - [Server Side Body](#server-side-body)
+    - [Server-Side Header](#server-side-header)
+    - [Server-Side Body](#server-side-body)
+    - [Server-Side Actions](#server-side-actions)
 
 - [Client-Side Data Viewer](#client-side-data-viewer)
 
@@ -17,78 +18,129 @@
 
 ## Introduction
 
-The **Data Management Header** provides the opportunity to customize your data display as well as table-level actions that are dependent on your security access. The table grids allow for many display customizations and row by row record modifications. These customization and record-modification options depend on the data viewer object that is displaying the table details; the **Server-Side Data Viewer** or the **Client-Side Data Viewer**.
+The _Data Management Header_ provides the opportunity to customize your data display as well as table-level actions that are dependent on your security access. The table grids allow for many display customizations and row by row record modifications. These customization and record-modification options depend on the data viewer object that is displaying the table details; the _Server-Side Data Viewer_ or the _Client-Side Data Viewer_.
 
 ## Data Management Header
 
-- ### Column Level Grouping
 
-    In the top left of the Grid Header is the following instruction **Drag a column header here to group by that column**.  The data viewer columns can be dragged.  In one use case, if you wanted to all of the customers for a given state, you would drag the **State** column onto the header and the grid would give you a list of every customer on a state by state level.
+<a name="column-level-grouping"></a>
 
-    Multiple levels of grouping are enabled by simply repeating the step above.
+### Column Level Grouping
 
-- ### Add Row
+In the top left of the Grid Header is the following instruction _Drag a column header here to group by that column_.  The data viewer columns can be dragged.  In one use case, if you wanted to all of the customers for a given state, you would drag the _State_ column onto the header and the grid would give you a list of every customer on a state by state level.
 
-    An **Add a Row +** icon gives you a form for you to add a new record to the table.
+Multiple levels of grouping are enabled by simply repeating the step above.
 
-- ### Export Data
+<a name="add-row"></a>
 
-    An **Export Data** icon allows you to export data in different ways depending on the type of grid selected. You may want to download data from a foreflow table to analyze it in Excel or use it in another application or system.  To do this, use the **Export Data** feature.
- 
-    (image here)
-    
-    The export process is different depending on the [Properties](tables-properties.md) setup.  If the **Use Client Side Data Viewer** setting for the table from which you are exporting data is set to **False**, you will then see a dialog box appear with **Queue Export** and **Cancel** options.  When you select **Queue Export**, foreflow schedules a **Task** that exports the data.  When foreflow completes the export, you will receive an email with a **Download File** link.  Clicking this will download your data in .xlsx format.
+### Add Row
 
-    If the **Use Client Side Data Viewer** setting for the table from which you are exporting data is set to **True**, the data you've selected will download immediately in .xlsx format.
+An _Add a Row_ **+** icon gives you a form for you to add a new record to the table.
 
-- ### Column Chooser
+<a name="export-data"></a>
 
-    A **Column Chooser** icon lets you hide or show columns as you want to.
+### Export Data
 
-- ### Search ...
+- An _Export Data_ icon allows you to export data in different ways depending on the type of grid selected. You may want to download data from a foreflow table to analyze it in Excel or use it in another application or system.  To do this, use the _Export Data_ feature.
 
-    A **Search...** option gives you a full-text search across your entire table.
+(image here)
 
-## Server Side Data Viewer
+- The export process is different depending on the [Properties](tables-properties.md) setup.  If the _Use Client Side Data Viewer_ setting for the table from which you are exporting data is set to _False_, you will then see a dialog box appear with _Queue Export_ and _Cancel_ options.  When you select _Queue Export_, foreflow schedules a _Task_ that exports the data.  When foreflow completes the export, you will receive an email with a _Download File_ link.  Clicking this will download your data in .xlsx format.
 
-The **Server-Side Data Viewer** is the default setting for viewing table details.  Because it is a server filled viewer, the data on each page of the detail is fetched each time a page is changed.  This set up provides a reliable and reasonably fast view of any size table.  
+- If the _Use Client Side Data Viewer_ setting for the table from which you are exporting data is set to _True_, the data you've selected will download immediately in .xlsx format.
 
-- ### Server Side Headers
+<a name="column-chooser"></a>
 
-    - **Column Order**: You can change your display column order by simply dragging the Column Header to the position you want to see it.
+### Column Chooser
 
-    - **Row Order**: You can order your records by clicking on a column header and changing the order-by orientation icon 
+- A _Column Chooser_ icon opens an interface that lets you hide or show columns.
 
-- ### Server Side Actions
+<a name="search-..."></a>
 
-    **Server-Side Actions** are permissions-based on both User Permissions level and a [Properties](tables-properties) level. For example:  If a table's _Read Only_ toggle is set to _false_ and a User's permission is set to _Update_, then the Edit icon will be visible.
+### Search ...
 
-    - #### Server Side Edit
+- A _Search..._ option gives you a full-text search across your entire table.
 
-        When you click on the **Edit** icon, you have the permissions-based ability to edit a record's fields in one of the following ways based on how your table administrator sets the Editing Mode on in the [Properties](tables-properties#editing-mode) page.
-        - Cell
-        - Row
-        - In-Line Pop-up Form
-        - Pop-up Form
+<a name="server-side-data-viewer"></a>
 
-    - #### Server Side Delete
+## Server-Side Data Viewer
 
-        You also have the permissions-based capability to delete records by clicking on the **Delete** icon. If deletes have been made a **Show Deleted Records** or **Hide Deleted Records** button appears in the table header.  When deleted records are displayed, the deleted record will appear with an **Undo** icon in the record actions in case the delete was made by mistake.
+The _Server-Side Data Viewer_ is the default setting for viewing table details.  Because it is a server filled viewer, the data on each page of the detail is fetched each time a page is changed.  This set up provides a reliable and reasonably fast view of any size table.  
 
-    - #### Server Side Audit
+<a name="server-side-column-grouping"></a>
 
-        There is a robust, permissions-based auditing system that will allow you to track the changes throughout the lifecycle of an evolving record by clicking on the **Audit** icon.  If the record is replaced then the audit trail is removed.
+### Server-Side Column Grouping
 
-    - #### Server Side Forms
+Server Side Column Grouping provides the same functionality as the Column Level Grouping in the header section.
 
-        If forms have been created on [Properties](tables-properties#forms-section) page then a permissions-based **Forms** icon also appears according to the business logic set in the properties page.
+<a name="server-side-column-headers"></a>
+
+### Server-Side Column Headers
+
+**Column Order** &mdash; You can change your display column order by simply dragging the Column Header to the position you want to see it.
+
+**Row Order** &mdash; You can order your records by clicking on a column header and changing the order-by orientation icon 
+
+<a name="server-side-actions"></a>
+
+### Server-Side Actions
+
+_Server-Side Actions_ are permissions-based on both User Permissions level and a [Properties](tables-properties) level. For example:  If a table's _Read Only_ toggle is set to _false_ and a User's permission is set to _Update_, then the Edit icon will be visible.
+
+**Edit** &mdash; When you click on the _Edit_ icon, you have the permissions-based ability to edit a record's fields in one of the following ways based on how your table administrator sets the Editing Mode on in the [Properties](tables-properties#editing-mode) page.
+- Cell
+- Row
+- In-Line Pop-up Form
+- Pop-up Form
+
+
+**Delete** &mdash; You also have the permissions-based capability to delete records by clicking on the _Delete_ icon. If deletes have been made a _Show Deleted Records_ or _Hide Deleted Records_ button appears in the table header.  When deleted records are displayed, the deleted record will appear with an _Undo_ icon in the record actions in case the delete was made by mistake.
+
+**Audit** &mdash; There is a robust, permissions-based auditing system that will allow you to track the changes throughout the lifecycle of an evolving record by clicking on the _Audit_ icon.  If the record is replaced then the audit trail is removed.
+
+**Forms** &mdash; If forms have been created on [Properties](tables-properties#forms-section) page then a permissions-based _Forms_ icon also appears according to the business logic set in the properties page.
+
+<a name="client-side-data-viewer"></a>
 
 ## Client-Side Data Viewer
 
-### Client Side Header
+<a name="client-side-column-grouping"></a>
 
+### Client-Side Column Grouping
 
-### Client Side Body
+In addition to the Column Level Grouping provided by default in the header, the Client-Side Column Grouping also adds multi-level column group ordering and the ability to do value look-ups from within the first group.
 
+**Column Group Ordering** &mdash; 
+
+**Column Group Value Look-up** &mdash; 
+
+<a name="client-side-column-headers"></a>
+
+### Client-Side Column Headers
+
+**Column Order** &mdash; You can change your display column order by simply dragging the Column Header to the position you want to see it.
+
+**Row Order** &mdash; You can order your records by clicking on a column header and changing the order-by orientation icon 
+
+**Values Look-up** &mdash; 
+
+**Logic Look-up** &mdash; 
+
+<a name="client-side-actions"></a>
 
 ### Client Side Actions
+
+_Client-Side Actions_ are permissions-based on both User Permissions level and a [Properties](tables-properties) level. For example:  If a table's _Read Only_ toggle is set to _false_ and a User's permission is set to _Update_, then the Edit icon will be visible.
+
+**Edit** &mdash; When you click on the _Edit_ icon, you have the permissions-based ability to edit a record's fields in one of the following ways based on how your table administrator sets the Editing Mode on in the [Properties](tables-properties#editing-mode) page.
+- Cell
+- Row
+- In-Line Pop-up Form
+- Pop-up Form
+
+
+**Delete** &mdash; You also have the permissions-based capability to delete records by clicking on the _Delete_ icon. If deletes have been made a _Show Deleted Records_ or _Hide Deleted Records_ button appears in the table header.  When deleted records are displayed, the deleted record will appear with an _Undo_ icon in the record actions in case the delete was made by mistake.
+
+**Audit** &mdash; There is a robust, permissions-based auditing system that will allow you to track the changes throughout the lifecycle of an evolving record by clicking on the _Audit_ icon.  If the record is replaced then the audit trail is removed.
+
+**Forms** &mdash; If forms have been created on [Properties](tables-properties#forms-section) page then a permissions-based _Forms_ icon also appears according to the business logic set in the properties page.
