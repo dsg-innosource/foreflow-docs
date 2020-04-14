@@ -17,7 +17,7 @@ Datasets are used to provide different views of data that exists in foreflow, or
 
 ## API Access
 
-When a dataset has API Access enabled, the dataset will become accessible via foreflow's API. You can read more about API access in the [API Documentation](/docs/{{version}}/api).
+When a dataset has API Access enabled, the dataset will become accessible via foreflow's API. You can read more about API access in the [API Documentation](/{{version}}/api).
 
 <a name="creating-datasets"></a>
 
