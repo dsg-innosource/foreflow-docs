@@ -3,10 +3,6 @@
 -   [Introduction](#introduction)
 -   [Tasks](#tasks)
     -   [Task Types](#task-types)
-        -   [JasperReport Distribution](#jasper-report-distribution)
-        -   [Shell Script Execution](#shell-script-execution)
-        -   [SQL Execution](#sql-execution)
-        -   [Talend Job Execution](#talend-job-execution)
 -   [Batches & Packages](#batches-packages)
 -   [Scheduling](#scheduling)
 
