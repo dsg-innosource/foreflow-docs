@@ -2,41 +2,41 @@
     - [About foreflow](/docs/{{version}}/about)
 
 - ## Getting Started
-    - [Logging In](/docs/{{version}}/logging_in)
+    - [Logging In](/docs/{{version}}/logging-in)
     - [Navigation](/docs/{{version}}/navigation)
 
 - ## Users
-    - [Creating Users](/docs/{{version}}/creating_users)
-    - [Editing Users](/docs/{{version}}/editing_users)
-    - [Applying Permissions to Users](/docs/{{version}}/user_permissions)
+    - [Creating Users](/docs/{{version}}/creating-users)
+    - [Editing Users](/docs/{{version}}/editing-users)
+    - [Applying Permissions to Users](/docs/{{version}}/user-permissions)
   
 - ## Tables
-    - [Table Management](/docs/{{version}}/table_management)
-    - [Table Properties](/docs/{{version}}/table_properties)
-    - [Table Columns](/docs/{{version}}/table_columns)
-    - [Data Export](/docs/{{version}}/table_data_export)
+    - [Table Management](/docs/{{version}}/table-management)
+    - [Table Properties](/docs/{{version}}/table-properties)
+    - [Table Columns](/docs/{{version}}/table-columns)
+    - [Data Export](/docs/{{version}}/table-data-export)
 
 - ## Datasets
-    - [Overview](/docs/{{version}}/dataset_overview)
+    - [Overview](/docs/{{version}}/dataset-overview)
 
 - ## Reports
-    - [Creating Reports](/docs/{{version}}/creating_reports)
-    - [Running Reports](/docs/{{version}}/running_reports)
-    - [Report Parameters](/docs/{{version}}/report_parameters)
-    - [Report Connections](/docs/{{version}}/report_connections)
-    - [Report Distribution](/docs/{{version}}/report_distribution)
+    - [Creating Reports](/docs/{{version}}/creating-reports)
+    - [Running Reports](/docs/{{version}}/running-reports)
+    - [Report Parameters](/docs/{{version}}/report-parameters)
+    - [Report Connections](/docs/{{version}}/report-connections)
+    - [Report Distribution](/docs/{{version}}/report-distribution)
 
 - ## Connections
-    - [Creating Connections](/docs/{{version}}/creating_connections)
+    - [Creating Connections](/docs/{{version}}/creating-connections)
 
 - ## Orchestration
-    - [Overview](/docs/{{version}}/orchestration_overview)
+    - [Overview](/docs/{{version}}/orchestration-overview)
   
 - ## Tasks
-    - [Talend Tasks](/docs/{{version}}/talend_tasks)
+    - [Talend Tasks](/docs/{{version}}/talend-tasks)
 
 - ## API
     - [API](/docs/{{version}}/api)
   
 - ## Dashboards
-    - [Dashboards Overview](/docs/{{version}}/dashboards_overview)
+    - [Dashboards Overview](/docs/{{version}}/dashboards-overview)
