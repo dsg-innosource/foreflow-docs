@@ -1,8 +1,12 @@
 # Talend Tasks
 
+-   [Error Handling](#error-handling)
+
+<a name="error-handling"></a>
+
 ## Error Handling
 
-Foreflow is set up in such a way to be able to receive error output from Talend processes.  In order to have errors from a Talend process bubble up to foreflow, you will need to add a few components to the Talend job. 
+Foreflow is set up in such a way to be able to receive error output from Talend processes. In order to have errors from a Talend process bubble up to foreflow, you will need to add a few components to the Talend job.
 
 ![talend-errors](img/talend-errors.png)
 
