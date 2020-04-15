@@ -1,6 +1,10 @@
 # Table Properties
 
 -   [Introduction](#introduction)
+-   [Edit Table Properties Header](#edit-table-properties-header)
+    -   [Edit _Table Friendly Name_ Table Properties Navigation](#edit-_table-friendly-name_-table-properties-navigation)
+    -   [Truncate Table](#truncate-table)
+    -   [Table Actions](#table-actions)
 -   [Table Properties Section](#table-properties-section)
     -   [Table Friendly Name](#table-friendly-name)
     -   [Table Description](#table-description)
@@ -31,6 +35,42 @@
 ## Introduction
 
 After selecting a particular table, you can access its properties by clicking the _Properties_ button. The properties page is divided into several sections due to the many options available. After you set all the properties that you want to be in effect for this table, be sure to click the _Update Table Properties_.
+
+<a name="edit-table-properties-header"></a>
+
+## Edit Table Properties Header
+
+<a name="edit-_table-friendly-name_-table-properties-navigation"></a>
+
+### Edit _Table Friendly Name_ Table Properties Navigation 
+
+In the Edit _Table Friendly Name_ Table Properties Header the _Table Friendly Name_ appears as a link that will take you back to the display page
+
+<a name="truncate-table"></a>
+
+### Truncate Table 
+
+The _Truncate Table_ button gives you the option to remove all of the data contained in your table.  Clicking on that button will open a confirmation dialog box explaining that removing all the data from the table cannot be undone.  Clicking _Yes_ will truncate the table.
+
+<a name="table-actions"></a>
+
+### Table Actions
+
+The _Table Actions_ button gives you the power to add existing [Orchestrate](orchestration-overview) _Task, Batch and Package_ actions to your table.  When a _Table Action_ is added to your table, users with the appropriate permissions can run that task from the _Table Detail_ page. 
+
+- **Select New Action Type** &mdash; This select box gives you the _Task, Batch, and Package_ options for the _Action_ you would like to _Add_.
+
+- **Add Action** &mdash; After the _Action Type_ has been selected, clicking the _Add Action_ button opens a pop-up **Create _Action Type_ Action** box with an _Action Type_ select box of all the available _Tasks, Batches or Packages_ of that _Action Type_ from which to choose.  Once a selection has been made, clicking the _Create_ button will _Add_ that newly created _Table Action_ association to your Table.
+
+- **Existing Actions** &mdash; After _Table Actions_ have been associated with this table they appear as objects under the _Existing Actions_ heading.  These _Table Actions_ display their _Action Names, Action Types_ and to the right the _three-dot options_ icon.
+
+    - **_three-dot options_ icon** &mdash; Clicking the _three-dot options_ icon gives you the ability to _View, Run or Remove_ the _Table Action_.
+
+        - **View** &mdash; Clicking the _View_ option takes you to the **Orchestrate** - Load _Action Type_ page.
+
+        - **Run** &mdash; If you click the _Run_ option, a pop-up confirmation dialog box. Clicking _Run_ will run the _Table Action_.
+
+        - **Remove** &mdash; If you click the _Remove_ option, a pop-up confirmation dialog box. Clicking _Remove_ will remove the _Table Action_ association from your table.
 
 <a name="table-properties-section"></a>
 
