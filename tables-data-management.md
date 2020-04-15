@@ -106,9 +106,9 @@ _Server-Side Actions_ are permissions-based on both User Permissions level and a
 
 In addition to the Column Level Grouping provided by default in the header, the Client-Side Column Grouping also adds multi-level column group ordering and the ability to do value look-ups from within the first group.
 
--   **Column Group Ordering** &mdash;
+-   **Column Group Ordering** &mdash; When the columns have been grouped, the order from left to right determines the hierarchy of the display.  In addition the ordering orientation for each column follows the same hierarchy.
 
--   **Column Group Value Look-up** &mdash;
+-   **Column Group Value Look-up** &mdash; The _funnel_ icon gives you the Value Look-up options from the values in the column.
 
 <a name="client-side-column-headers"></a>
 
@@ -118,9 +118,16 @@ In addition to the Column Level Grouping provided by default in the header, the 
 
 -   **Row Order** &mdash; You can order your records by clicking on a column header and changing the order-by orientation icon
 
--   **Values Look-up** &mdash;
+-   **Values Look-up** &mdash; The _funnel_ icon gives you the Value Look-up options from the values in the column.
 
--   **Logic Look-up** &mdash;
+-   **Logic Look-up** &mdash; The _Magnifying glass_ icon gives you the the following logical options:
+    -   Contains
+    -   Does Not Contain
+    -   Starts With
+    -   Ends With
+    -   Equals
+    -   Does Not Equal
+    -   Reset
 
 <a name="client-side-actions"></a>
 
