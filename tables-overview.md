@@ -16,31 +16,31 @@ Once a table is selected, the _Table Header_ provides you with some global _Tabl
 
 <a name="table-name"></a>
 
-### Table Name
+## Table Name
 
 The _Table Name_ appears is displayed with a _ROW COUNT_ and _TAGS_ beneath it.
 
 <a name="show-/-hide-deleted-records"></a>
 
-### Show/Hide Deleted Records
+## Show/Hide Deleted Records
 
 If rows have been deleted from the table the _Show/Hide Deleted Records_ button appears.
 
 <a name="dashboards"></a>
 
-### Dashboards
+## Dashboards
 
 If a dashboard has been created for your table, a _Dashboards_ button will appear.  When you click on the word _Dashboards_ in the button, all the existing dashboards will appear and selecting one will take you to the dashboard you selected.
 
 <a name="run-actions"></a>
 
-### Run Actions
+## Run Actions
 
 If _Task, Batch, or Package Actions_ have been created in the  _[Properties](tables-properties#table-actions)_ page for your table, a _Run Actions_ button will appear.  When you click on the word _Run Actions_ in the button, all the existing _Actions_ will appear and selecting one will take you to the dashboard you selected.  When you click on one of those actions a confirmation dialog box appears to be sure that you what to run that action.  Clicking _Run_ will run the selected action.
 
 <a name="import"></a>
 
-### Import
+## Import
 
 When you click on the _Import_ button a pop up will appear which contains an interactive file upload box.  When you either drop or select a data file with headers, the following things occur.
 
@@ -52,6 +52,6 @@ When you attach a formatted data file to an email to the generated address, the 
 
 <a name="properties"></a>
 
-### Properties
+## Properties
 
 Click the Properties button to modify a new or existing table.  You will be taken to the [Properties](table-properties) page, where you can modify table properties and add or remove table columns.
