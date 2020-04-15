@@ -112,29 +112,29 @@ Here you will find editing options for users with sufficient rights.
 
 - **Cell** &mdash; When you select the _Cell_ option, the user can click on a cell to update it. The active cell is underlined.
 
-    -   To _Accept_ the change click the _check mark_.
-    -   To _Cancel_ the edit click the _X_.
+    -   To _Accept_ the change, click the _check mark_.
+    -   To _Cancel_ the edit, click the _X_.
 
 <a name="row"></a>
 
 - **Row** &mdash; When you select the _Row_ option, the user must select the edit icon before clicking on a cell to update it. The active cell is underlined.
 
-    -   To _Accept_ the change click the _check mark_.
-    -   To _Cancel_ the edit click the _X_.
+    -   To _Accept_ the change, click the _check mark_.
+    -   To _Cancel_ the edit, click the _X_.
 
 <a name="inline-form"></a>
 
 - **Inline Form** &mdash; When you select the _Inline Form_ option, clicking the edit icon will replace the line with a form for the user to edit. The active cell is underlined.
 
-    -   To _Accept_ the change click the _check mark_.
-    -   To _Cancel_ the edit click the _X_.
+    -   To _Accept_ the change, click the _check mark_.
+    -   To _Cancel_ the edit, click the _X_.
 
 <a name="pop-up-form"></a>
 
 - **Pop-up Form** &mdash; When you select the _Pop-up Form_ option, clicking the edit icon will open a pop-up window form for the user to edit.
 
-    -   To _Accept_ the change click the _Save_ button.
-    -   To _Cancel_ the edit click the _Cancel_ button.
+    -   To _Accept_ the change, click the _Save_ button.
+    -   To _Cancel_ the edit, click the _Cancel_ button.
 
 <a name="default-sort"></a>
 
@@ -154,9 +154,9 @@ Here you will be configuring a way to either append or replace data in your tabl
 
 -   The system generates a _table-specific_ email address of this pattern _[Universally\_Unique\_ID]@[your\_foreflow\_domain].com_. You will need to use this address to append or replace formatted data in your table
 
--   The system attempts to match the headers on that formatted data file to the columns in your table. After this the system makes an interface available which allows you to adjust those matches that id cannot match on its own.
+-   The system attempts to match the headers on that formatted data file to the columns in your table. After this, the system makes an interface available which allows you to adjust those matches that id cannot match on its own.
 
--   You are then asked to choose whether you want this formatted file to _Append To_ or to _Replace_ the data in your table.
+-   You are then asked to choose whether you want this formatted file to _Append To_ or _Replace_ the data in your table.
 
 When you attach a formatted data file to an email to the generated address, the system will either append or replace the data in your table with the data in your file, depending on the action you configured.
 
@@ -220,7 +220,7 @@ When you click on the _Add Relationship_ button a window pops up that expands st
 
 <a name="has-many"></a>
 
-- **Has Many** &mdash; Does the _Related Table_ with a _Has Many_ relationship have multiple records that store the _Source Column_ value of your table in its _Related Column_?
+- **Has Many** &mdash; Does the _Related Table_ with _Has Many_ relationships have multiple records that store the _Source Column_ value of your table in its _Related Column_?
 
 <a name="belongs-to"></a>
 
@@ -238,7 +238,7 @@ The _Forms_ section provides a way for you to inject form options into your tabl
 
     -   For example, You might like to make available a _Hire Form_ only when an employee record has a _Status_ such as _Candidate_ in the _Employees_ table.
 
--   Another use case is to display a form for a table with a _Has Many_ relationship to the selected table.
+-   Another use case is to display a form for a table with _Has Many_ relationships to the selected table.
 
     -   For example, You might like to add or edit one or more records in the related _Emergency Contact_ table through the _Manage Emergency Contacts_ Form from the _Employees_ table.
 
@@ -278,7 +278,7 @@ The third section, _Design_, provides a simple yet powerful design tool with the
 
 - **Edit Existing Records** &mdash; This toggle gives you the ability to chose between whether a user is entering new data or editing data that already exists in the system
 
-- **Allow Multiple Insert** &mdash; This toggle lets you offer the power of the _Has Many_ relationship, to your end-users, at their discretion, on a record by record level.
+- **Allow Multiple Insert** &mdash; This toggle lets you offer the power of _Has Many_ relationships, to your end-users, at their discretion, on a record by record level.
 
 - **Fields in Section** &mdash; This "Drag and Drop" design box, in conjunction with the _Available Columns_ list, gives you the ability to select, order and arrange the columns you want to show to the end-users of this form.
 
@@ -298,7 +298,7 @@ Clicking the _Add Column_ button will open a dynamic _Add Column_ dialog box wit
 
 #### Default Column Definition and Display Options
 
-In the top 4 definitions, you have the ability to name and configure the display features of your new column
+In the top 4 definitions, you can name and configure the display features of your new column
 
 - **Name** &mdash; This is the identifying label that you want to use to reference this column in this table.
 
