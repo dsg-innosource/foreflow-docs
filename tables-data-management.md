@@ -79,7 +79,7 @@ The _Server-Side Data Viewer_ is the default setting for viewing table details. 
 
 ### Server-Side Actions
 
-_Server-Side Actions_ are permissions-based on both User Permissions level and a [Properties](tables-properties) level.
+_Server-Side Actions_ are permissions-based on both User Permissions level and a [Properties](/{{version}}/tables-properties) level.
 
 > **Example:** If a table's _Read Only_ toggle is set to _false_ and a User's permission is set to _Update_, then the Edit icon will be visible.
 
@@ -106,7 +106,7 @@ _Server-Side Actions_ are permissions-based on both User Permissions level and a
 
 In addition to the Column Level Grouping provided by default in the header, the Client-Side Column Grouping also adds multi-level column group ordering and the ability to do value look-ups from within the first group.
 
--   **Column Group Ordering** &mdash; When the columns have been grouped, the order from left to right determines the hierarchy of the display.  In addition the ordering orientation for each column follows the same hierarchy.
+-   **Column Group Ordering** &mdash; When the columns have been grouped, the order from left to right determines the hierarchy of the display. In addition the ordering orientation for each column follows the same hierarchy.
 
 -   **Column Group Value Look-up** &mdash; The _funnel_ icon gives you the Value Look-up options from the values in the column.
 
@@ -133,7 +133,7 @@ In addition to the Column Level Grouping provided by default in the header, the 
 
 ### Client Side Actions
 
-_Client-Side Actions_ are permissions-based on both User Permissions level and a [Properties](tables-properties) level. For example: If a table's _Read Only_ toggle is set to _false_ and a User's permission is set to _Update_, then the Edit icon will be visible.
+_Client-Side Actions_ are permissions-based on both User Permissions level and a [Properties](/{{version}}/tables-properties) level. For example: If a table's _Read Only_ toggle is set to _false_ and a User's permission is set to _Update_, then the Edit icon will be visible.
 
 -   **Edit** &mdash; When you click on the _Edit_ icon, you have the permissions-based ability to edit a record's fields in one of the following ways based on how your table administrator sets the Editing Mode on in the [Properties](tables-properties#editing-mode) page.
 

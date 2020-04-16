@@ -21,7 +21,6 @@
     -   [Properties](/{{version}}/tables-properties)
     -   [Actions](/{{version}}/tables-actions)
 
-
 -   ## Datasets
 
     -   [Overview](/{{version}}/dataset-overview)
