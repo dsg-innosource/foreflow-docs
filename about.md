@@ -1,5 +1,5 @@
 # About foreflow
 
-![foreflow logo](img/foreflow.png)
+![foreflow logo](/{{version}}/img/foreflow.png)
 
 Foreflow is a software platform that facilitates key functions associated with creating, managing and viewing data. It works with your existing data sources, data management systems and analytical/reporting systems and it can stand alone. It provides Web based services and user interfaces that allow your team to schedule and manage a wide variety of data management processes. It also provides a user data management interface that allows users to upload spreadsheet data and edit it online with full security, validation and auditing. Foreflow also provides a unified portal interface in which reports, dashboards and views of data from disparate systems and data sources can be presented to users in a simplified, secure way. Foreflow acts as a host to combine analytics from other systems with its own content. Foreflow can be implemented as a cloud solution or as an on-premise solution. We also offer customization services to make foreflow do things that your organization needs. You can purchase foreflow on a module-by-module basis.
