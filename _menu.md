@@ -1,23 +1,23 @@
 -   ## Getting Started
 
-    -   [About foreflow](/{{version}}/about)
+    -   [Overview](/{{version}}/about)
     -   [Authentication](/{{version}}/authentication)
     -   [Navigation](/{{version}}/navigation)
 
 -   ## Users
 
-    -   [Users Overview](/{{version}}/users-overview)
+    -   [Overview](/{{version}}/users-overview)
     -   [Creating Users](/{{version}}/users-create)
     -   [Editing Users](/{{version}}/users-edit)
     -   [Applying Permissions to Users](/{{version}}/users-permissions)
 
 -   ## Roles
 
-    -   [Roles Overview](/{{version}}/roles-overview)
+    -   [Overview](/{{version}}/roles-overview)
 
 -   ## Tables
 
-    -   [Tables Overview](/{{version}}/tables-overview)
+    -   [Overview](/{{version}}/tables-overview)
     -   [Creating & Importing](/{{version}}/tables-creating-&-importing)
     -   [Data Management](/{{version}}/tables-data-management)
     -   [Properties](/{{version}}/tables-properties)
@@ -25,16 +25,15 @@
 
 -   ## Datasets
 
-    -   [Datasets Overview](/{{version}}/dataset-overview)
+    -   [Overview](/{{version}}/datasets-overview)
 
 -   ## Connections
 
-    -   [Connections Overview](/{{version}}/connections-overview)
-    -   [Creating Connections](/{{version}}/connections-createing)
+    -   [Overview](/{{version}}/connections-overview)
 
 -   ## Orchestration
 
-    -   [Orchestration Overview](/{{version}}/orchestration-overview)
+    -   [Overview](/{{version}}/orchestration-overview)
     -   [Talend Tasks](/{{version}}/orchestration-tasks-talend)
     -   [JasperReports Tasks](/{{version}}/orchestration-tasks-jasperreports)
     -   [Script Tasks](/{{version}}/orchestration-tasks-script)
@@ -44,12 +43,11 @@
 
 -   ## API
 
-    -   [API Overview](/{{version}}/api-overview)
-    -   [API](/{{version}}/api)
+    -   [Overview](/{{version}}/api-overview)
 
 -   ## Reports
 
-    -   [Reports Overview](/{{version}}/reports-overview)
+    -   [Overview](/{{version}}/reports-overview)
     -   [Creating Reports](/{{version}}/reports-creating)
     -   [Running Reports](/{{version}}/reports-running)
     -   [Report Parameters](/{{version}}/reports-parameters)
@@ -58,6 +56,4 @@
 
 -   ## Dashboards
 
-    -   [Dashboards Overview](/{{version}}/dashboards-overview)
-
-
+    -   [Overview](/{{version}}/dashboards-overview)
