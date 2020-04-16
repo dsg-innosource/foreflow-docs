@@ -45,7 +45,7 @@ An _Add a Row_ **+** icon gives you a form for you to add a new record to the ta
 
 (image coming soon)
 
--   The export process is different depending on the [Properties](tables-properties.md) setup. If the _Use Client Side Data Viewer_ setting for the table from which you are exporting data is set to _False_, you will then see a dialog box appear with _Queue Export_ and _Cancel_ options. When you select _Queue Export_, foreflow schedules a _Task_ that exports the data. When foreflow completes the export, you will receive an email with a _Download File_ link. Clicking this will download your data in .xlsx format.
+-   The export process is different depending on the [Properties](/{{version}}/tables-properties.md) setup. If the _Use Client Side Data Viewer_ setting for the table from which you are exporting data is set to _False_, you will then see a dialog box appear with _Queue Export_ and _Cancel_ options. When you select _Queue Export_, foreflow schedules a _Task_ that exports the data. When foreflow completes the export, you will receive an email with a _Download File_ link. Clicking this will download your data in .xlsx format.
 
 -   If the _Use Client Side Data Viewer_ setting for the table from which you are exporting data is set to _True_, the data you've selected will download immediately in .xlsx format.
 
@@ -79,11 +79,11 @@ The _Server-Side Data Viewer_ is the default setting for viewing table details. 
 
 ### Server-Side Actions
 
-_Server-Side Actions_ are permissions-based on both User Permissions level and a [Properties](tables-properties) level.
+_Server-Side Actions_ are permissions-based on both User Permissions level and a [Properties](/{{version}}/ables-properties) level.
 
 > **Example:** If a table's _Read Only_ toggle is set to _false_ and a User's permission is set to _Update_, then the Edit icon will be visible.
 
--   **Edit** &mdash; When you click on the _Edit_ icon, you have the permissions-based ability to edit a record's fields in one of the following ways based on how your table administrator sets the Editing Mode on in the [Properties](tables-properties#editing-mode) page.
+-   **Edit** &mdash; When you click on the _Edit_ icon, you have the permissions-based ability to edit a record's fields in one of the following ways based on how your table administrator sets the Editing Mode on in the [Properties](/{{version}}/tables-properties#editing-mode) page.
 
     -   Cell
     -   Row
@@ -94,7 +94,7 @@ _Server-Side Actions_ are permissions-based on both User Permissions level and a
 
 -   **Audit** &mdash; There is a robust, permissions-based auditing system that will allow you to track the changes throughout the lifecycle of an evolving record by clicking on the _Audit_ icon. If the record is replaced then the audit trail is removed.
 
--   **Forms** &mdash; If forms have been created on [Properties](tables-properties#forms-section) page then a permissions-based _Forms_ icon also appears according to the business logic set in the properties page.
+-   **Forms** &mdash; If forms have been created on [Properties](/{{version}}/tables-properties#forms-section) page then a permissions-based _Forms_ icon also appears according to the business logic set in the properties page.
 
 <a name="client-side-data-viewer"></a>
 
@@ -133,9 +133,9 @@ In addition to the Column Level Grouping provided by default in the header, the 
 
 ### Client Side Actions
 
-_Client-Side Actions_ are permissions-based on both User Permissions level and a [Properties](tables-properties) level. For example: If a table's _Read Only_ toggle is set to _false_ and a User's permission is set to _Update_, then the Edit icon will be visible.
+_Client-Side Actions_ are permissions-based on both User Permissions level and a [Properties](/{{version}}/tables-properties) level. For example: If a table's _Read Only_ toggle is set to _false_ and a User's permission is set to _Update_, then the Edit icon will be visible.
 
--   **Edit** &mdash; When you click on the _Edit_ icon, you have the permissions-based ability to edit a record's fields in one of the following ways based on how your table administrator sets the Editing Mode on in the [Properties](tables-properties#editing-mode) page.
+-   **Edit** &mdash; When you click on the _Edit_ icon, you have the permissions-based ability to edit a record's fields in one of the following ways based on how your table administrator sets the Editing Mode on in the [Properties](/{{version}}/tables-properties#editing-mode) page.
 
     -   Cell
     -   Row
@@ -146,4 +146,4 @@ _Client-Side Actions_ are permissions-based on both User Permissions level and a
 
 -   **Audit** &mdash; There is a robust, permissions-based auditing system that will allow you to track the changes throughout the lifecycle of an evolving record by clicking on the _Audit_ icon. If the record is replaced then the audit trail is removed.
 
--   **Forms** &mdash; If forms have been created on [Properties](tables-properties#forms-section) page then a permissions-based _Forms_ icon also appears according to the business logic set in the properties page.
+-   **Forms** &mdash; If forms have been created on [Properties](/{{version}}/tables-properties#forms-section) page then a permissions-based _Forms_ icon also appears according to the business logic set in the properties page.

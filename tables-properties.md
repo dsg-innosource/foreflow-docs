@@ -19,6 +19,7 @@
     -   [Enable Word Wrap](#enable-word-wrap)
     -   [Read Only](#read-only)
 -   [Relationships Section](#relationships-section)
+    -   [Add Relationship](#add-relationship)
 -   [Forms Section](#forms-section)
     -   [Create Form](#create-form)
 -   [Column Properties Section](#column-properties-section)
@@ -56,7 +57,7 @@ The _Truncate Table_ button gives you the option to remove all of the data conta
 
 ### Table Actions
 
-Details on _Table Actions_ can be found on the dedicated [Table Actions](tables-actions) page.
+Details on _Table Actions_ can be found on the dedicated [Table Actions](/{{version}}/tables-actions) page.
 
 <a name="table-properties-section"></a>
 
@@ -210,9 +211,7 @@ When you click on the _Add Relationship_ button a window pops up that expands st
 
 <a name="belongs-to"></a>
 
-#### Belongs To
-
--   Does your primary table have a _Related Column_ that is storing a value of a _Source Column_ that _Belongs To_ the _Related Table_ you selected?.
+-   **Has Many** &mdash; Does your primary table have a _Related Column_ that is storing a value of a _Source Column_ that _Belongs To_ the _Related Table_ you selected?.
 
 <a name="forms-section"></a>
 
@@ -336,4 +335,5 @@ The _Type_ options are _Standard_, _Reference_ and _Calculated_. Each of these _
 
 ## Tags Section
 
-The _Tags_ section lets you add searchable words to your table. For example, if you wanted to find the Employees table, you might add the _Tag_ _ADMIN_ followed by the _Enter_ key. After that, you could add the _Tag_ _HUMAN RESOURCES_ followed by the _Enter_ key. This would provide your table with a searchable set of _Tags_.
+The _Tags_ section lets you add searchable words to your table. 
+> For example, if you wanted to find the Employees table, you might add the _Tag_ _ADMIN_ followed by the _Enter_ key. After that, you could add the _Tag_ _HUMAN RESOURCES_ followed by the _Enter_ key. This would provide your table with a searchable set of _Tags_.

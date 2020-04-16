@@ -32,7 +32,7 @@ Clicking the _three-dot_ icon provides a list of available options for the corre
 
 -   **Edit** &mdash; Opens the _Action Type_ modal to allow for changes
 
--   **View** (conditional) &mdash; Navigates to the correseponding [Orchestration](orchestration-overview) page
+-   **View** (conditional) &mdash; Navigates to the correseponding [Orchestration](/{{version}}/orchestration-overview) page
 
 -   **Run** (conditional) &mdash; After confirmation, immediately runs the selected action
 
@@ -48,7 +48,7 @@ To add a new action to the table, select an _Action Type_ from the _Select New A
 
 ## Action Types
 
-Several different _Action Types_ are available that can modify columns directly or run a configured [Orchestration](orchestration-overview) entity.
+Several different _Action Types_ are available that can modify columns directly or run a configured [Orchestration](/{{version}}/orchestration-overview) entity.
 
 <a name="task"></a>
 

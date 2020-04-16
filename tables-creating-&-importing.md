@@ -34,4 +34,4 @@ Once you verify the column names and datatypes, clicking the _Save_ button will 
 
 ## Modifying Tables
 
-The _Actions_ column contains an _Edit_ icon and a _Delete_ icon. Click the _Edit_ icon to modify a new or existing table. You will be taken to the [Properties](tables-properties) screen, where you can modify table properties and add or remove table columns.
+The _Actions_ column contains an _Edit_ icon and a _Delete_ icon. Click the _Edit_ icon to modify a new or existing table. You will be taken to the [Properties](/{{version}}/tables-properties) screen, where you can modify table properties and add or remove table columns.
