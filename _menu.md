@@ -15,10 +15,12 @@
 
 -   ## Tables
 
-    -   [Table Management](/{{version}}/table-management)
-    -   [Table Properties](/{{version}}/table-properties)
-    -   [Table Columns](/{{version}}/table-columns)
-    -   [Data Export](/{{version}}/table-export-data)
+    -   [Overview](/{{version}}/tables-overview)
+    -   [Creating & Importing](/{{version}}/tables-creating-&-importing)
+    -   [Data Management](/{{version}}/tables-data-management)
+    -   [Properties](/{{version}}/tables-properties)
+    -   [Actions](/{{version}}/tables-actions)
+
 
 -   ## Datasets
 

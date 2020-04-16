@@ -1,7 +1,7 @@
-# Table Management
+# Creating & Importing
 
 -   [Introduction](#introduction)
--   [Adding Tables](#adding-tables)
+-   [Creating Tables](#creating-tables)
     -   [Manually Creating a Table](#manually-creating-a-table)
     -   [Creating a Table via File Upload](#creating-a-table-via-file-upload)
 -   [Modifying Tables](#modifying-tables)
@@ -12,9 +12,9 @@
 
 You can see existing Tables to which you have access by clicking the _Tables_ item in the menu. These tables are listed in a sortable grid. If you have Administrator rights, you will see an Actions column that contains icons for editing or deleting a table, and a button to add a new table.
 
-<a name="adding-tables"></a>
+<a name="creating-tables"></a>
 
-## Adding Tables
+## Creating Tables
 
 <a name="manually-creating-a-table"></a>
 
@@ -34,4 +34,4 @@ Once you verify the column names and datatypes, clicking the _Save_ button will 
 
 ## Modifying Tables
 
-The _Actions_ column contains an edit icon and a delete icon. Click the edit icon to modify a new or existing table. You will be taken to the Table Properties screen, where you can modify table properties and add or remove table columns.
+The _Actions_ column contains an _Edit_ icon and a _Delete_ icon. Click the _Edit_ icon to modify a new or existing table. You will be taken to the [Properties](tables-properties) screen, where you can modify table properties and add or remove table columns.
