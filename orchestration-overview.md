@@ -26,7 +26,7 @@ Tasks are the smallest units of work in the scheduling engine, and have a wide r
 
 #### JasperReport Distribution
 
-The JasperReport Distribution task allows you to distribute a JasperReport to a distribution list. Read more about configuring a JasperReport Distribution task [here](/{{version}}/report-distribution).
+The JasperReport Distribution task allows you to distribute a JasperReport to a distribution list. Read more about configuring a [JasperReport Distribution task](/{{version}}/reports-distribution).
 
 <a name="shell-script-execution"></a>
 
@@ -44,7 +44,7 @@ The SQL execution task allows you to run SQL statements against a database conne
 
 #### Talend Job Execution
 
-The Talend Execution task allows you to run a compiled job that was built in Talend Open Studio. Using Talend, you can create complex ETL logic that can be executed within foreflow. Read more about handling Talend errors [here](/{{version}}/talend-tasks).
+The Talend Execution task allows you to run a compiled job that was built in Talend Open Studio. Using Talend, you can create complex ETL logic that can be executed within foreflow. Read more about [handling Talend errors](/{{version}}/orchestration-tasks-talend#error-handling).
 
 <a name="batches-packages"></a>
 

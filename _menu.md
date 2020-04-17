@@ -1,17 +1,19 @@
--   ## Introduction
-
-    -   [About foreflow](/{{version}}/about)
-
 -   ## Getting Started
 
+    -   [Overview](/{{version}}/about)
     -   [Authentication](/{{version}}/authentication)
     -   [Navigation](/{{version}}/navigation)
 
 -   ## Users
 
-    -   [Creating Users](/{{version}}/creating-users)
-    -   [Editing Users](/{{version}}/editing-users)
-    -   [Applying Permissions to Users](/{{version}}/user-permissions)
+    -   [Overview](/{{version}}/users-overview)
+    -   [Creating Users](/{{version}}/users-creating)
+    -   [Editing Users](/{{version}}/users-editing)
+    -   [Applying Permissions to Users](/{{version}}/users-permissions)
+
+-   ## Roles
+
+    -   [Overview](/{{version}}/roles-overview)
 
 -   ## Tables
 
@@ -23,31 +25,35 @@
 
 -   ## Datasets
 
-    -   [Overview](/{{version}}/dataset-overview)
-
--   ## Reports
-
-    -   [Creating Reports](/{{version}}/creating-reports)
-    -   [Running Reports](/{{version}}/running-reports)
-    -   [Report Parameters](/{{version}}/report-parameters)
-    -   [Report Connections](/{{version}}/report-connections)
-    -   [Report Distribution](/{{version}}/report-distribution)
+    -   [Overview](/{{version}}/datasets-overview)
 
 -   ## Connections
 
-    -   [Creating Connections](/{{version}}/creating-connections)
+    -   [Overview](/{{version}}/connections-overview)
 
 -   ## Orchestration
 
     -   [Overview](/{{version}}/orchestration-overview)
-
--   ## Tasks
-
-    -   [Talend Tasks](/{{version}}/talend-tasks)
+    -   [Talend Tasks](/{{version}}/orchestration-tasks-talend)
+    -   [JasperReports Tasks](/{{version}}/orchestration-tasks-jasperreports)
+    -   [Script Tasks](/{{version}}/orchestration-tasks-script)
+    -   [SQL Tasks](/{{version}}/orchestration-tasks-sql)
+    -   [Batches](/{{version}}/orchestration-batches)
+    -   [Packages](/{{version}}/orchestration-Packages)
 
 -   ## API
 
-    -   [API](/{{version}}/api)
+    -   [Overview](/{{version}}/api-overview)
+
+-   ## Reports
+
+    -   [Overview](/{{version}}/reports-overview)
+    -   [Creating Reports](/{{version}}/reports-creating)
+    -   [Running Reports](/{{version}}/reports-running)
+    -   [Report Parameters](/{{version}}/reports-parameters)
+    -   [Report Connections](/{{version}}/reports-connections)
+    -   [Report Distribution](/{{version}}/reports-distribution)
 
 -   ## Dashboards
-    -   [Dashboards Overview](/{{version}}/dashboards-overview)
+
+    -   [Overview](/{{version}}/dashboards-overview)
