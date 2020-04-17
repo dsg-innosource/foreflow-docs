@@ -10,7 +10,7 @@
 
 ## Introduction
 
-One of the features of foreflow is the ability to create robust Role-based permissions. The ability to create roles is, itself, a permissions based option in the main foreflow menu reserved for administrators. This Role-based permissions framework allows for both category and object based granularity to be applied to specific users. The category based security coveres _all_ created objects within a given category. The object based security applies to _specific_ created objects. 
+One of the features of foreflow is the ability to create robust Role-based permissions. The ability to create roles is, itself, a permissions-based option in the main foreflow menu reserved for administrators. This Role-based permissions framework allows for both category and object based granularity to be applied to specific users. The category based security coveres _all_ created objects within a given category. The object based security applies to _specific_ created category objects. 
 
 <a name="creating-roles"></a>
 
