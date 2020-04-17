@@ -1,4 +1,4 @@
-#Connections Overview
+# Connections Overview
 
 -   [Introduction](#introduction)
 -   [Connection Types](#connection-types)
@@ -11,7 +11,7 @@
 
 ## Introduction
 
-Foreflow allows users to configure connections to other databases, and services. An internal foreflow database connection is already configured and available for use.
+Foreflow allows users to configure connections to other databases and services. An internal foreflow database connection is already configured and available for use.
 
 <a name="connection-types"></a>
 
@@ -23,11 +23,11 @@ All connection types allow you to specify a _Name_ and a _Description_ for the c
 
 ### Harvest
 
-> **Note:** In order to connect to a Harvest account, you'll need to set up a Personal Access Token in your Harvest account. Visit the [Harvest Developer Tools](https://id.getharvest.com/developers) page to set one up.
+> **Note:** To connect to a Harvest account, you'll need to set up a Personal Access Token in your Harvest account. Visit the [Harvest Developer Tools](https://id.getharvest.com/developers) page to set one up.
 >
 > This Personal Access Token will need to be created by a user with Administrative privileges on your Harvest account.
 
-Once creating the connection a number of [Tasks](/{{version}}/orchestration-overview#tasks) and [Tables](/{{version}}/tables-overview) are created automatically.
+Once creating the connection, a few [Tasks](/{{version}}/orchestration-overview#tasks) and [Tables](/{{version}}/tables-overview) are created automatically.
 
 The following _Tables_ are created for the Harvest connection:
 
@@ -51,11 +51,11 @@ The following _Tasks_ are created for the Harvest connection:
 
 ### Forecast
 
-> **Note:** In order to connect to a Forecast account, you'll need to set up a Personal Access Token in your Forecast account. Visit the [Harvest Developer Tools](https://id.getharvest.com/developers) page to set one up. Be sure to select your Forecast account when copying the Access Token and Account ID.
+> **Note:** To connect to a Forecast account, you'll need to set up a Personal Access Token in your Forecast account. Visit the [Harvest Developer Tools](https://id.getharvest.com/developers) page to set one up. Be sure to select your Forecast account when copying the Access Token and Account ID.
 >
 > This Personal Access Token will need to be created by a user with Administrative privileges on your Forecast account.
 
-Once creating the connection a number of [Tasks](/{{version}}/orchestration-overview#tasks) and [Tables](/{{version}}/tables-overview) are created automatically.
+Once creating the connection, a few [Tasks](/{{version}}/orchestration-overview#tasks) and [Tables](/{{version}}/tables-overview) are created automatically.
 
 The following _Tables_ are created for the Harvest connection:
 
