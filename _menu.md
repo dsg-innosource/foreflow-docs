@@ -7,9 +7,6 @@
 -   ## Users
 
     -   [Overview](/{{version}}/users-overview)
-    -   [Creating Users](/{{version}}/users-creating)
-    -   [Editing Users](/{{version}}/users-editing)
-    -   [Applying Permissions to Users](/{{version}}/users-permissions)
 
 -   ## Roles
 
@@ -48,8 +45,6 @@
 -   ## Reports
 
     -   [Overview](/{{version}}/reports-overview)
-    -   [Creating Reports](/{{version}}/reports-creating)
-    -   [Running Reports](/{{version}}/reports-running)
     -   [Report Parameters](/{{version}}/reports-parameters)
     -   [Report Connections](/{{version}}/reports-connections)
     -   [Report Distribution](/{{version}}/reports-distribution)
