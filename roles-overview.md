@@ -52,11 +52,11 @@ To change the _Role Properties_, a list of properties to be set is displayed in 
     
     -   **Category Level**  &mdash; If you select the _Category Level_ you can _Choose Permissions_ by simply clicking the CheckBoxes under the CREATE, READ, UPDATE and DELETE options.  These permissions will then appear
 
-    > For Example: If you selected the _Category Level_, you could choose the _Tables_ Category and check the _READ_ permission to allow everyone in this role to see the _Tables_.
+    > **Example**: If you selected the _Category Level_, you could choose the _Tables_ Category and check the _READ_ permission to allow everyone in this role to see the _Tables_.
     
     -   **Specific [Category Object]**  &mdash; If you select the _Specific [Category Object]_, a list of all those category objects will appear for you to choose from.  After choosing the specific category object, you can _Choose Permissions_ by simply clicking the CheckBoxes under the CREATE, READ, UPDATE and DELETE options.  These permissions will then appear for that category object.
 
-    > For example: If the Category you chose was _Tables_, you could choose the _Specific [Category Object]_ of the _Employees_ table from the list of all the _Tables_, _[Category Objects]_, that are available to you.  Checking the _READ_ and _UPDATE_ _Permissions_ will allow this role to change the _Employees Table_ Definition.
+    > **Example**: If the Category you chose was _Tables_, you could choose the _Specific [Category Object]_ of the _Employees_ table from the list of all the _Tables_, _[Category Objects]_, that are available to you.  Checking the _READ_ and _UPDATE_ _Permissions_ will allow this role to change the _Employees Table_ Definition.
     > </br></br>If you were also to choose the Category of _Table Data_, and Choose the _Specific [Category Object]_ of the _Employees_ table again, Checking the CREATE, UPDATE and DELETE options would allow your role to Create, Update and Delete records in the _Employees_ table as well.
 
     Once the permissions have been added, click the Update Role button to accept the updates to the Role. An alert will appear confirming that your Role has been updated.
