@@ -7,8 +7,8 @@
 -   ## Users
 
     -   [Overview](/{{version}}/users-overview)
-    -   [Creating Users](/{{version}}/users-create)
-    -   [Editing Users](/{{version}}/users-edit)
+    -   [Creating Users](/{{version}}/users-creating)
+    -   [Editing Users](/{{version}}/users-editing)
     -   [Applying Permissions to Users](/{{version}}/users-permissions)
 
 -   ## Roles
