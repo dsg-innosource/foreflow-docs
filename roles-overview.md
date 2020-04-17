@@ -5,6 +5,7 @@
 -   [Editing Roles](#editing-roles)
     -   [Changing Role Properties](#changing-role-properties)
     -   [Configuring Permissions](#configuring-permissions)
+    -   [Adding Users](#adding-users)
 
 <a name="introduction"></a>
 
@@ -50,3 +51,12 @@ To change the _Role Properties_, a list of properties to be set is displayed in 
 -   **Edit**  &mdash; Once _Permissions_ have been added for either the _Category Level_ or the _Specific [Category Object]_ level, you can alter or delete the _Permissions_ by simply clicking the Check Boxes under the CREATE, READ, UPDATE and DELETE columns or clicking the _Trash Can_ icon to entirely delete the permission record.
 
     Once the permissions have been edited, click the Update Role button to accept the updates to the Role. An alert will appear confirming that your Role has been updated.
+
+<a name="adding-users"></a>
+
+### Adding Users
+
+You can add users to your role by simply typing the name in the search box.  As you begin to type _Users_ that correspond to your text pattern, matched _Users_ appear from which you can select using your arrows and hitting enter.  Once a user is selected they appear in a list of associated users beneath the search box.  Clicking the _X_ beside the associated _User_ will remove that user from the _Role-associated Users_ list.
+
+Once the _Users_ list has been finalized, click the Update Role button to accept the updates to the Role. An alert will appear confirming that your Role has been updated.
+
