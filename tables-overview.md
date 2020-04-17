@@ -36,7 +36,7 @@ If a dashboard has been created for your table, a _Dashboards_ button will appea
 
 ## Run Actions
 
-If _Task, Batch, or Package Actions_ have been created in the  _[Properties](tables-properties#table-actions)_ page for your table, a _Run Actions_ button will appear.  When you click on the word _Run Actions_ in the button, all the existing _Actions_ will appear and selecting one will take you to the dashboard you selected.  When you click on one of those actions a confirmation dialog box appears to be sure that you what to run that action.  Clicking _Run_ will run the selected action.
+If _Task, Batch, or Package Actions_ have been created in the  _[Properties](/{{version}}/tables-properties#table-actions)_ page for your table, a _Run Actions_ button will appear.  When you click on the word _Run Actions_ in the button, all the existing _Actions_ will appear and selecting one will take you to the dashboard you selected.  When you click on one of those actions a confirmation dialog box appears to be sure that you what to run that action.  Clicking _Run_ will run the selected action.
 
 <a name="import"></a>
 
@@ -54,4 +54,4 @@ When you attach a formatted data file to an email to the generated address, the 
 
 ## Properties
 
-Click the Properties button to modify a new or existing table.  You will be taken to the [Properties](table-properties) page, where you can modify table properties and add or remove table columns.
+Click the Properties button to modify a new or existing table.  You will be taken to the [Properties](/{{version}}/table-properties) page, where you can modify table properties and add or remove table columns.

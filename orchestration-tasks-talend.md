@@ -1,6 +1,12 @@
 # Talend Tasks
 
+-   [Introduction](#introduction)
 -   [Error Handling](#error-handling)
+
+
+<a name="introduction"></a>
+
+## Introduction
 
 <a name="error-handling"></a>
 
