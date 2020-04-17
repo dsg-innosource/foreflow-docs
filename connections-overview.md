@@ -5,7 +5,6 @@
     -   [Harvest](#harvest)
     -   [Forecast](#forecast)
     -   [MySql](#mysql)
-    -   [Postgres](#postgres)
 
 <a name="introduction"></a>
 
@@ -76,18 +75,6 @@ The following _Tasks_ are created for the Harvest connection:
 ### MySql
 
 Creating a [MySql](https://dev.mysql.com/doc/) connection requires entering the following fields:
-
--   **Host** &mdash; The IP Address of the server you want to connect to
--   **Port** &mdash; The port to use for the connection
--   **Database** &mdash; The name of the database to connect to
--   **Username** &mdash; The username to use for the connection
--   **Password** &mdash; The password to use for the connection
-
-<a name="postgres"></a>
-
-### Postgres
-
-Creating a [Postgres](https://www.postgresql.org/docs/) connection requires entering the following fields:
 
 -   **Host** &mdash; The IP Address of the server you want to connect to
 -   **Port** &mdash; The port to use for the connection
