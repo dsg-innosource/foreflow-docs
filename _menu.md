@@ -48,8 +48,6 @@
 -   ## Reports
 
     -   [Overview](/{{version}}/reports-overview)
-    -   [Creating Reports](/{{version}}/reports-creating)
-    -   [Running Reports](/{{version}}/reports-running)
     -   [Report Parameters](/{{version}}/reports-parameters)
     -   [Report Connections](/{{version}}/reports-connections)
     -   [Report Distribution](/{{version}}/reports-distribution)
