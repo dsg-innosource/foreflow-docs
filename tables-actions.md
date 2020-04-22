@@ -72,4 +72,26 @@ This configuration modal provides a list of _Packages_ from which you can select
 
 ### Conditional Row Updates
 
-_details coming soon_
+This configuration modal provides an interface to create one or multiple conditions in which a column should be updated with a value.
+
+#### Conditional Type
+
+There are two options for this setting:
+
+-   **Match all conditions** &mdash; Requires _ALL_ the conditions defined in the _IF_ section to be true for the _THEN_ action to be executed
+-   **Match any conditions** &mdash; Requires _ANY_ the conditions defined in the _IF_ section to be true for the _THEN_ action to be executed
+
+#### _IF_ section
+
+This section provides a column, operator, and value to set for conditions in which the _THEN_ action would be constrained by.
+
+-   **Column** &mdash; Provides a list of columns from the current _Table_ to perform the conditional check on
+-   **Operator** &mdash; Provides a list of available comparison operators. This operator will be used to evaluate the current value in the _Column_ specified against the comparison _Value_.
+-   **Value** &mdash; A input to specify a comparison value. This value is compared against the current value in the column specified using the _Operator_
+
+#### _THEN_ section
+
+This section allows the user to specify what should happend if the conditions specified occur.
+
+-   **Column** &mdash; Provides a list of columns from the current _Table_ to set the _Value_
+-   **Value** &mdash; An input to specify the value that should be set on the _Column_
