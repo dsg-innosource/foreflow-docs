@@ -24,6 +24,17 @@ Because of how foreflow handles internal metadata tracking, certain column names
 - created_by
 - last_updated_by
 
+This limitation can be overcome by providing an alias for a column with one of the above names:
+
+```sql
+    select
+        id as employee_id
+        ,created_at as record_created_at
+
+    from
+        employees;
+```
+
 <a name="creating-a-dataset-to-table-task"></a>
 
 ## Creating a Dataset to Table Task
