@@ -36,7 +36,7 @@
     -   [JasperReports Tasks](/{{version}}/orchestration-tasks-jasperreports)
     -   [Script Tasks](/{{version}}/orchestration-tasks-script)
     -   [SQL Tasks](/{{version}}/orchestration-tasks-sql)
-    -   [SQL Tasks](/{{version}}/orchestration-tasks-dataset-to-table)
+    -   [Dataset to Table Tasks](/{{version}}/orchestration-tasks-dataset-to-table)
     -   [Batches](/{{version}}/orchestration-batches)
     -   [Packages](/{{version}}/orchestration-Packages)
 
