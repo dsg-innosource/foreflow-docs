@@ -29,6 +29,8 @@
     -   [Standard-Type Definition Options](#standard-type-definition-options)
     -   [Reference-Type Definition Options](#reference-type-definition-options)
     -   [Calculated-Type Definition Options](#calculated-type-definition-options)
+-   [Column Validation Section](#column-validation-section)
+    -   [Add Validation Rule](#add-validation-rule)
 -   [Tags Section](#tags-section)
 
 <a name="introduction"></a>
@@ -330,6 +332,39 @@ The _Type_ options are _Standard_, _Reference_ and _Calculated_. Each of these _
 #### Calculated-Type Definition Options
 
 -   **Expression** &mdash; This code box lets you use [MySQL Functions](https://www.w3schools.com/sql/sql_ref_mysql.asp) to create the calculation statement, that results in a single "scalar value", to return for display in this column.
+
+<a name="column-validation-section"></a>
+
+## Column Validation Section
+
+The _Column Validation_ section allows you to set rules for the data before a user can edit values in the database.
+
+<a name="add-validation-rule"></a>
+
+### Add Validation Rule
+
+Clicking the _Add Validation Rule_ button will open a dialog box that will expand as you define the rule.
+
+#### Column validation rule fields
+-   **Name** &mdash; This is the label you will use to identify the validation rule for this table.
+
+-   **Type** &mdash; This drop-down allows you to set the type of validation rule you wish to create.
+
+    - **Required With** &mdash; This rule requires that a value for the _constraint column_ be present to create or edit the value for the _target column_.
+        
+        - example. You have a hired checkbox and a hired date field. You can require that the hired checkbox be checked before a value can be entered for the hire date.
+
+    - **Before** &mdash; This rule requires that the _target column_ be before the _constraint columns_.
+    - **After** &mdash; This rule requires that the _target column_ be after the _constraint columns_.
+    - **Required With Value** &mdash; This rule is similar to the _required with_ rule but allows you to set a specific value to require for the _constraint columns_.
+
+        - example. Instead of the hired checkbox, from the _required with_ example, you have a status field. You can require that a specific status is set, hired, before a value can be entered for the hire date.
+
+-   **Target Column** &mdash; This drop-down allows you to select the column you wish the rule to take effect on
+
+-   **Constraint Columns** &mdash; This multi-select allows you to choose all the columns you wish to use for
+
+- **Value Entry** &mdash; For rules that require values for the contraint columns, a input box will appear for each constraint chosen
 
 <a name="tags-section"></a>
 
