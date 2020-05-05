@@ -1,6 +1,6 @@
 -   ## Getting Started
 
-    -   [Overview](/{{version}}/about)
+    -   [Overview](/{{version}}/overview)
     -   [Authentication](/{{version}}/authentication)
     -   [Navigation](/{{version}}/navigation)
 
