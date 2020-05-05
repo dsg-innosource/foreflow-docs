@@ -7,6 +7,7 @@
 -   ## Users
 
     -   [Overview](/{{version}}/users-overview)
+    -   [Active Directory](/{{version}}/users-active-directory)
 
 -   ## Roles
 
