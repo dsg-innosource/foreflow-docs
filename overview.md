@@ -1,4 +1,4 @@
-# About foreflow
+# Overview
 
 ![foreflow logo](/{{version}}/img/foreflow.png)
 
