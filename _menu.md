@@ -3,6 +3,7 @@
     -   [Overview](/{{version}}/overview)
     -   [Authentication](/{{version}}/authentication)
     -   [Navigation](/{{version}}/navigation)
+    -   [System Events](/{{version}}/system-events)
 
 -   ## Users
 

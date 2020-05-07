@@ -1,4 +1,4 @@
-# System Events Overview
+# System Events
 
 -   [Introduction](#introduction)
 -   [Events Captured](#events-captured)
@@ -8,28 +8,27 @@
 
 ## Introduction
 
-To better understand how users interact with the system, certain actions will trigger a log to be created.
+To better understand how users interact with the system, certain actions will trigger a _System Event_. These events are recorded in a table for reporting, analytical, or other purposes.
 
 <a name="events-captured"></a>
 
 ## Events Captured
 
-The data the system logs includes:
+The following actions trigger a _System Event_:
+-   Logging into the system
+-   Resetting a password
+-   Accessing a Table
+-   Accessing a Dataset
+-   Accessing a Dashboard
 
--   The user or api key used to access the system
--   The ip address of the user
--   Details about the specific event
-
-The events that are logged are:
-
--   Login
--   Password Resets
--   Table Access
--   Dataset Access
--   Dashboard Access
+Each action may record different information. The following information is always collected:
+-   The _User_ or _Api Key_ used to access or perform the action
+-   The IP Address the actions came from
+-   References to the accessed entity
+-   Web browser information
 
 <a name="accessing-event-data"></a>
 
-## Accessing Event Data
+## Accessing Entries
 
-The system event log can be displayed by querying against the _system_events_ table either in a dataset or a JasperReport.
+The system event log can be displayed by querying against the `system_events` table either in a _Dataset_ or a _JasperReport_.
