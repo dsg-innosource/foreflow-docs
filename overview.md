@@ -15,9 +15,9 @@ Here you can find out what's new and what used to be new but is no longer.
 
 - foreflow can now be configured to sync data between a Dataset and a Table using the new "Dataset to Table" task type.
 
-- foreflow now supports Postgres database connections!
+- foreflow now supports Postgres database connections
 
-- Users can now see the details of currently running Orchestrate tasks.
+- Users can now see the details of currently running Orchestrate tasks
 
 - foreflow now allows Conditional Table Actions
 
@@ -29,7 +29,7 @@ Here you can find out what's new and what used to be new but is no longer.
 
 ### Bug Fixes
 
-- Resolved an issue where Reference Column record ID's where being displayed in Dashboard visualizations instead of the Reference Column value.
+- Resolved an issue where Reference Column record ID's were being displayed in Dashboard visualizations instead of the Reference Column value
 
 - Resolved an issue where Table Actions were not firing under certain conditions
 
