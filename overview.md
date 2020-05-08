@@ -1,5 +1,35 @@
-# Overview
+# foreflow version 2.x
 
-![foreflow logo](/{{version}}/img/foreflow.png)
+Here you can find out what's new and what used to be new but is no longer.
 
-Foreflow is a software platform that facilitates key functions associated with creating, managing and viewing data. It works with your existing data sources, data management systems and analytical/reporting systems and it can stand alone. It provides Web based services and user interfaces that allow your team to schedule and manage a wide variety of data management processes. It also provides a user data management interface that allows users to upload spreadsheet data and edit it online with full security, validation and auditing. Foreflow also provides a unified portal interface in which reports, dashboards and views of data from disparate systems and data sources can be presented to users in a simplified, secure way. Foreflow acts as a host to combine analytics from other systems with its own content. Foreflow can be implemented as a cloud solution or as an on-premise solution. We also offer customization services to make foreflow do things that your organization needs. You can purchase foreflow on a module-by-module basis.
+> **Note:** [You can find out more about foreflow here.](https://www.resultdata.com/foreflow)
+
+  
+--- 
+
+## Version 2.4
+
+**Thursday, May 7th, 2020**
+
+### New Features & Improvements
+
+- foreflow can now be configured to sync data between a Dataset and a Table using the new "Dataset to Table" task type.
+
+- foreflow now supports Postgres database connections
+
+- Users can now see the details of currently running Orchestrate tasks
+
+- foreflow now allows Conditional Table Actions
+
+- foreflow now supports Active Directory integration
+
+- Users can now apply Column Validation Rules to inserted or updated table records
+
+- Users can now resize the columns on the Dataset listing page
+
+### Bug Fixes
+
+- Resolved an issue where Reference Column record ID's were being displayed in Dashboard visualizations instead of the Reference Column value
+
+- Resolved an issue where Table Actions were not firing under certain conditions
+
