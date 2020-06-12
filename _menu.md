@@ -33,10 +33,11 @@
 -   ## Orchestration
 
     -   [Overview](/{{version}}/orchestration-overview)
-    -   [Talend Tasks](/{{version}}/orchestration-tasks-talend)
+    -   [Drive Tasks](/{{version}}/orchestration-tasks-drive)
     -   [JasperReports Tasks](/{{version}}/orchestration-tasks-jasperreports)
     -   [Script Tasks](/{{version}}/orchestration-tasks-script)
     -   [SQL Tasks](/{{version}}/orchestration-tasks-sql)
+    -   [Talend Tasks](/{{version}}/orchestration-tasks-talend)
     -   [Dataset to Table Tasks](/{{version}}/orchestration-tasks-dataset-to-table)
     -   [Batches](/{{version}}/orchestration-batches)
     -   [Packages](/{{version}}/orchestration-Packages)
