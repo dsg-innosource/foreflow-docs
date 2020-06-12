@@ -6,4 +6,4 @@
 
 ## Introduction
 
-_coming soon_
+Packages allow for compiling multiple _Batches_ to run together. Batches can be ran in sequence or in parallel.
