@@ -6,6 +6,8 @@
     -   [Forecast](#forecast)
     -   [MySql](#mysql)
     -   [Postgres](#postgres)
+    -   [Local Drive](#local-drive)
+    -   [SFTP Drive](#sftp-drive)
 
 <a name="introduction"></a>
 
@@ -94,3 +96,23 @@ Creating a [Postgres](https://www.postgresql.org/docs/) connection requires ente
 -   **Database** &mdash; The name of the database to connect to
 -   **Username** &mdash; The username to use for the connection
 -   **Password** &mdash; The password to use for the connection
+
+<a name="local-drive"></a>
+
+### Local Drive
+
+Creating a local connection requires entering the following fields:
+
+-   **Directory** &mdash; The path on the foreflow server
+
+<a name="sftp-drive"></a>
+
+### SFTP Drive
+
+Creating a SFTP connection requires entering the following fields:
+
+-   **Host** &mdash; The IP Address of the server you want to connect to
+-   **Username** &mdash; The username to use for the connection
+-   **Password** &mdash; The password to use for the connection
+-   **Port** &mdash; The port to use for the connection
+-   **Directory** &mdash; The path on the foreflow server
