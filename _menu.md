@@ -21,6 +21,7 @@
     -   [Data Management](/{{version}}/tables-data-management)
     -   [Properties](/{{version}}/tables-properties)
     -   [Actions](/{{version}}/tables-actions)
+    -   [Columns](/{{version}}/tables-columns)
 
 -   ## Datasets
 
