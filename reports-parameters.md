@@ -1,13 +1,13 @@
 # Report Parameters
 
-  - [Introduction](#introduction)
-  - [Parameter Types](#parameter-types)
-    - [String](#string)
-    - [Integer](#integer)
-    - [Date](#date)
-    - [Date & Time](#date--time)
-    - [List from Foreflow Table Column](#list-from-foreflow-table-column)
-    - [User Email Address](#user-email-address)
+- [Introduction](#introduction)
+- [Parameter Types](#parameter-types)
+  - [String](#string)
+  - [Integer](#integer)
+  - [Date](#date)
+  - [Date & Time](#date--time)
+  - [List from Foreflow Table Column](#list-from-foreflow-table-column)
+  - [User Email Address](#user-email-address)
 
 <a name="introduction"></a>
 
