@@ -1,6 +1,5 @@
 # Report Parameters
 
-- [Report Parameters](#report-parameters)
   - [Introduction](#introduction)
   - [Parameter Types](#parameter-types)
     - [String](#string)
