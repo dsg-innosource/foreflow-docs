@@ -14,11 +14,11 @@ Here you can find out what's new and what used to be new but is no longer.
 
 - foreflow now allows users to create Read Only Form Fields
 
-- foreflow now supports creating linkable URL Columns
+- foreflow now supports creating [linkable URL Columns](/{{version}}/tables-columns#custom-column-types)
 
-- foreflow now supports Backing up the foreflow database and files locally or via SFTP
+- foreflow now supports Backing up the foreflow database and files [locally](/{{version}}/connections-overview#local-drive) or via [SFTP](/{{version}}/connections-overview#sftp-drive)
 
-- foreflow's interface has been improved on the Table Properties and Role Permissinos pages
+- foreflow's interface has been improved on the [Table Properties](/{{version}}/tables-properties) and [Role Permissions](/{{version}}/roles-overview#updating-permissions) pages
 
 ### Bug Fixes
 
@@ -26,7 +26,7 @@ Here you can find out what's new and what used to be new but is no longer.
 
 - Resolved an issue where Form fields were not returned in the correct order
 
-- Resolved an issue where Dashboard elements were not displyed correctly
+- Resolved an issue where Dashboard elements were not displayed correctly
 
 - Resolved an issue where Table Actions were not fired when records were updated
 
