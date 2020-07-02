@@ -8,7 +8,7 @@ Here you can find out what's new and what used to be new but is no longer.
 
 ## Version 2.5
 
-**Sunday, June 21st, 2020**
+**Wednesday, July 1st, 2020**
 
 ### New Features & Improvements
 
