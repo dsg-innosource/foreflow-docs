@@ -1,4 +1,4 @@
-# Orchestration Tasks &mdash; Dataset to Table
+# Dataset to Table Tasks
 
 -   [Introduction](#introduction)
 -   [Dataset Column Names](#dataset-column-names)

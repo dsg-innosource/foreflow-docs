@@ -4,32 +4,7 @@ Here you can find out what's new and what used to be new but is no longer.
 
 > **Note:** [You can find out more about foreflow here.](https://www.resultdata.com/foreflow)
 
----
-
-## Version 2.5
-
-**Sunday, June 21st, 2020**
-
-### New Features & Improvements
-
-- foreflow now allows users to create Read Only Form Fields
-
-- foreflow now supports creating linkable URL Columns
-
-- foreflow now supports Backing up the foreflow database and files locally or via SFTP
-
-- foreflow's interface has been improved on the Table Properties and Role Permissinos pages
-
-### Bug Fixes
-
-- Resolved an issue where Table Actions would prevent Table Imports from working
-
-- Resolved an issue where Form fields were not returned in the correct order
-
-- Resolved an issue where Dashboard elements were not displyed correctly
-
-- Resolved an issue where Table Actions were not fired when records were updated
-
+  
 --- 
 
 ## Version 2.4

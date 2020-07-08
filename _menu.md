@@ -21,7 +21,6 @@
     -   [Data Management](/{{version}}/tables-data-management)
     -   [Properties](/{{version}}/tables-properties)
     -   [Actions](/{{version}}/tables-actions)
-    -   [Columns](/{{version}}/tables-columns)
 
 -   ## Datasets
 
@@ -34,11 +33,10 @@
 -   ## Orchestration
 
     -   [Overview](/{{version}}/orchestration-overview)
-    -   [Drive Tasks](/{{version}}/orchestration-tasks-drive)
+    -   [Talend Tasks](/{{version}}/orchestration-tasks-talend)
     -   [JasperReports Tasks](/{{version}}/orchestration-tasks-jasperreports)
     -   [Script Tasks](/{{version}}/orchestration-tasks-script)
     -   [SQL Tasks](/{{version}}/orchestration-tasks-sql)
-    -   [Talend Tasks](/{{version}}/orchestration-tasks-talend)
     -   [Dataset to Table Tasks](/{{version}}/orchestration-tasks-dataset-to-table)
     -   [Batches](/{{version}}/orchestration-batches)
     -   [Packages](/{{version}}/orchestration-Packages)

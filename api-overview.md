@@ -14,9 +14,11 @@ Foreflow exposes an API that can be used to obtain data from the foreflow instan
 
 ## Creating API Keys
 
-To create a new API key, click the "Add API Key" button on the API Keys page. The system will ask for a description of the API Key and and expiration date for the API Key. The description field is best used to describe which system or application will be using the API Key. Typically, it is best practice to have the API tokens expire within one year of creation. The system will allow you to extend or shorten the expiration date as needed, but it will warn you if you have selected a time frame longer than a year.
+To create a new API key, click the "Add API Key" button on the API Keys page. The system will ask for a description of the API Key. This description field is best used to describe which system or application will be using the API Key.
 
 Once an API Key is generated, foreflow will only display the key one time. You should copy the key, and store it in a secure location.
+
+API keys expire one year after they were created.
 
 <a name="using-an-api-key"></a>
 

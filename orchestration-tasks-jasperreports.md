@@ -1,4 +1,4 @@
-# Orchestration Tasks &mdash; JasperReports
+# Orchestration Tasks JasperReports
 
 -   [Introduction](#introduction)
 -   [Creating a Report Distribution Task](#creating-a-report-distribution-task)
