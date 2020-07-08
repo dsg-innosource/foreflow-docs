@@ -45,7 +45,7 @@ An _Add a Row_ **+** icon gives you a form for you to add a new record to the ta
 
 (image coming soon)
 
--   The export process is different depending on the [Properties](/{{version}}/tables-properties.md) setup. If the _Use Client Side Data Viewer_ setting for the table from which you are exporting data is set to _False_, you will then see a dialog box appear with _Queue Export_ and _Cancel_ options. When you select _Queue Export_, foreflow schedules a _Task_ that exports the data. When foreflow completes the export, you will receive an email with a _Download File_ link. Clicking this will download your data in .xlsx format.
+-   The export process is different depending on the [Properties](/{{version}}/tables-properties) setup. If the _Use Client Side Data Viewer_ setting for the table from which you are exporting data is set to _False_, you will then see a dialog box appear with _Queue Export_ and _Cancel_ options. When you select _Queue Export_, foreflow schedules a _Task_ that exports the data. When foreflow completes the export, you will receive an email with a _Download File_ link. Clicking this will download your data in .xlsx format.
 
 -   If the _Use Client Side Data Viewer_ setting for the table from which you are exporting data is set to _True_, the data you've selected will download immediately in .xlsx format.
 
