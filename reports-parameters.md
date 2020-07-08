@@ -1,12 +1,13 @@
 # Report Parameters
 
--   [Introduction](#introduction)
--   [Parameter Types](#parameter-types)
-    -   [String](#string)
-    -   [Integer](#integer)
-    -   [Date](#date)
-    -   [Date & Time](#date-time)
-    -   [List from Foreflow Table Column](#list-from-foreflow-table-column)
+- [Introduction](#introduction)
+- [Parameter Types](#parameter-types)
+  - [String](#string)
+  - [Integer](#integer)
+  - [Date](#date)
+  - [Date & Time](#date--time)
+  - [List from Foreflow Table Column](#list-from-foreflow-table-column)
+  - [User Email Address](#user-email-address)
 
 <a name="introduction"></a>
 
@@ -47,3 +48,9 @@ The Date & Time parameter type allows the user to provide a timestamp for the pa
 ### List from Foreflow Table Column
 
 The List from Foreflow Table Column parameter type allows the user to provide a value from a Foreflow table. When providing values for a List from Foreflow Table Column parameter, foreflow will display a drop down list of values from the configured column.
+
+<a name="user-email-address"></a>
+
+### User Email Address
+
+The User Email Address parameter type allows for User level filtering within a JasperReport.  When setting up a parameter as a "User Email Address" parameter, foreflow will automatically inject the authenticated user's email address into the report parameter.  This allows the data in the report to be filtered down to only the data to which the user has access.  The only case where a user will be prompted to provide a value for this parameter is if the report is being distributed by foreflow.  

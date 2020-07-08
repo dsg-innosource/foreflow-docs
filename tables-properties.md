@@ -1,69 +1,45 @@
 # Table Properties
 
 -   [Introduction](#introduction)
--   [Edit Table Properties Header](#edit-table-properties-header)
-    -   [Edit _Table Friendly Name_ Table Properties Navigation](#edit-_table-friendly-name_-table-properties-navigation)
-    -   [Truncate Table](#truncate-table)
-    -   [Table Actions](#table-actions)
--   [Table Properties Section](#table-properties-section)
+-   [Truncate Table](#truncate-table)
+-   [Details Tab](#details-tab)
     -   [Table Friendly Name](#table-friendly-name)
     -   [Table Description](#table-description)
     -   [Database Table Name](#database-table-name)
     -   [Default Number of Rows to Display](#default-number-of-rows-to-display)
     -   [Editing Mode](#editing-mode)
     -   [Default Sort](#default-sort)
-    -   [Email Import](#email-import)
     -   [Use Client-Side Data Viewer](#use-client-side-data-viewer)
     -   [Display Column Chooser](#display-column-chooser)
     -   [Allow Data Export](#allow-data-export)
     -   [Enable Word Wrap](#enable-word-wrap)
     -   [Read Only](#read-only)
--   [Relationships Section](#relationships-section)
+    -   [Email Import](#email-import)
+    -   [Tags](#tags)
+-   [Columns Tab](#columns-tab)
+-   [Relationships Tab](#relationships-tab)
     -   [Add Relationship](#add-relationship)
--   [Forms Section](#forms-section)
-    -   [Create Form](#create-form)
--   [Column Properties Section](#column-properties-section)
-    -   [Add Column](#add-column)
-    -   [Default Column Definition and Display Options](#default-column-definition-and-display-options)
-    -   [Type-Based Column Definitions](#type-based-column-definitions)
-    -   [Standard-Type Definition Options](#standard-type-definition-options)
-    -   [Reference-Type Definition Options](#reference-type-definition-options)
-    -   [Calculated-Type Definition Options](#calculated-type-definition-options)
--   [Column Validation Section](#column-validation-section)
+-   [Actions Tab](#actions-tab)
+-   [Validation Tab](#validation-tab)
     -   [Add Validation Rule](#add-validation-rule)
--   [Tags Section](#tags-section)
+-   [Forms Tab](#forms-tab)
+    -   [Create Form](#create-form)
 
 <a name="introduction"></a>
 
 ## Introduction
 
-After selecting a particular table, you can access its properties by clicking the _Properties_ button. The properties page is divided into several sections due to the many options available. After you set all the properties that you want to be in effect for this table, be sure to click the _Update Table Properties_.
-
-<a name="edit-table-properties-header"></a>
-
-## Edit Table Properties Header
-
-<a name="edit-_table-friendly-name_-table-properties-navigation"></a>
-
-### Edit _Table Friendly Name_ Table Properties Navigation
-
-In the Edit _Table Friendly Name_ Table Properties Header the _Table Friendly Name_ appears as a link that will take you back to the display page
+After selecting a particular table, you can access its properties by clicking the _Properties_ button. The properties page is divided into several tabs due to the many options available. After you set all the properties that you want to be in effect for this table, be sure to click the _Save Changes_.
 
 <a name="truncate-table"></a>
 
-### Truncate Table
+## Truncate Table
 
-The _Truncate Table_ button gives you the option to remove all of the data contained in your table. Clicking on that button will open a confirmation dialog box explaining that removing all the data from the table cannot be undone. Clicking _Yes_ will truncate the table.
+The _Truncate Table_ button, located to the right of the tabs, gives you the option to remove all of the data contained in your table. Clicking on that button will open a confirmation dialog box explaining that removing all the data from the table cannot be undone. Clicking _Yes_ will truncate the table.
 
-<a name="table-actions"></a>
+<a name="details-tab"></a>
 
-### Table Actions
-
-Details on _Table Actions_ can be found on the dedicated [Table Actions](/{{version}}/tables-actions) page.
-
-<a name="table-properties-section"></a>
-
-## Table Properties Section
+## Details Tab
 
 Here you will find the general table properties:
 
@@ -135,20 +111,6 @@ This is where you can select one of the columns on the table as your default sor
 
 -   **Sort Direction** &mdash; When you select either _Ascending_ or _Descending_ this direction is applied to the _Default Sort_ column that you have selected.
 
-<a name="email-import"></a>
-
-### Email Import
-
-Here you will be configuring a way to either append or replace data in your table by utilizing an email attachment. When you click on the _Configure Email Import_ button a pop up will appear which contains an interactive file upload box. When you either drop or select a data file with headers, the following things occur.
-
--   The system generates a _table-specific_ email address of this pattern _[Universally\_Unique\_ID]@[your\_foreflow\_domain].com_. You will need to use this address to append or replace formatted data in your table
-
--   The system attempts to match the headers on that formatted data file to the columns in your table. After this, the system makes an interface available which allows you to adjust those matches that id cannot match on its own.
-
--   You are then asked to choose whether you want this formatted file to _Append To_ or _Replace_ the data in your table.
-
-When you attach a formatted data file to an email to the generated address, the system will either append or replace the data in your table with the data in your file, depending on the action you configured.
-
 <a name="use-client-side-data-viewer"></a>
 
 ### Use Client-Side Data Viewer
@@ -179,11 +141,40 @@ This is where you can choose to allow the height of the rows in your table to in
 
 Here you can choose whether or not the users of this grid will have the ability to edit or delete records in this table. If the _Read-Only_ value is set to _True_ then the _Edit_ and _Delete_ icons will be _unavailable_ to the user.
 
-<a name="relationships-section"></a>
+<a name="email-import"></a>
 
-## Relationships Section
+### Email Import
 
-The _Relationships_ section allows you to define relationships between the primary table to which these properties apply and the other tables to which you have access.
+Here you will be configuring a way to either append or replace data in your table by utilizing an email attachment. When you click on the _Configure Email Import_ button a pop up will appear which contains an interactive file upload box. When you either drop or select a data file with headers, the following things occur.
+
+-   The system generates a _table-specific_ email address of this pattern _[Universally\_Unique\_ID]@[your\_foreflow\_domain].com_. You will need to use this address to append or replace formatted data in your table
+
+-   The system attempts to match the headers on that formatted data file to the columns in your table. After this, the system makes an interface available which allows you to adjust those matches that id cannot match on its own.
+
+-   You are then asked to choose whether you want this formatted file to _Append To_ or _Replace_ the data in your table.
+
+When you attach a formatted data file to an email to the generated address, the system will either append or replace the data in your table with the data in your file, depending on the action you configured.
+
+<a name="tags"></a>
+
+### Tags
+
+_Tags_ let you add searchable words to your table. 
+> For example, if you wanted to find the Employees table, you might add the _Tag_ _ADMIN_ followed by the _Enter_ key. After that, you could add the _Tag_ _HUMAN RESOURCES_ followed by the _Enter_ key. This would provide your table with a searchable set of _Tags_.
+
+<a name="columns-tab"></a>
+
+## Columns Tab
+
+The _Columns_ tab empowers you to design the column-level data definitions for your table.
+
+> The Columns tab documentation has been moved to it's [own page](/{{version}}/tables-columns).
+
+<a name="relationships-tab"></a>
+
+## Relationships Tab
+
+The _Relationships_ tab allows you to define relationships between the primary table to which these properties apply and the other tables to which you have access.
 
 <a name="add-relationship"></a>
 
@@ -215,11 +206,50 @@ When you click on the _Add Relationship_ button a window pops up that expands st
 
 -   **Has Many** &mdash; Does your primary table have a _Related Column_ that is storing a value of a _Source Column_ that _Belongs To_ the _Related Table_ you selected?.
 
-<a name="forms-section"></a>
+<a name="actions-tab"></a>
 
-## Forms Section
+## Actions Tab
 
-The _Forms_ section provides a way for you to inject form options into your table actions.
+Details on _Actions_ can be found on the dedicated [Table Actions](/{{version}}/tables-actions) page.
+
+<a name="validation-tab"></a>
+
+## Validation Tab
+
+The _Validation_ tab allows you to set rules for the data before a user can edit values in the database.
+
+<a name="add-validation-rule"></a>
+
+### Add Validation Rule
+
+Clicking the _Add Validation Rule_ button will open a dialog box that will expand as you define the rule.
+
+#### Column validation rule fields
+-   **Name** &mdash; This is the label you will use to identify the validation rule for this table.
+
+-   **Type** &mdash; This drop-down allows you to set the type of validation rule you wish to create.
+
+    - **Required With** &mdash; This rule requires that a value for the _constraint column_ be present to create or edit the value for the _target column_.
+        
+        - example. You have a hired checkbox and a hired date field. You can require that the hired checkbox be checked before a value can be entered for the hire date.
+
+    - **Before** &mdash; This rule requires that the _target column_ be before the _constraint columns_.
+    - **After** &mdash; This rule requires that the _target column_ be after the _constraint columns_.
+    - **Required With Value** &mdash; This rule is similar to the _required with_ rule but allows you to set a specific value to require for the _constraint columns_.
+
+        - example. Instead of the hired checkbox, from the _required with_ example, you have a status field. You can require that a specific status is set, hired, before a value can be entered for the hire date.
+
+-   **Target Column** &mdash; This drop-down allows you to select the column you wish the rule to take effect on
+
+-   **Constraint Columns** &mdash; This multi-select allows you to choose all the columns you wish to use for
+
+- **Value Entry** &mdash; For rules that require values for the contraint columns, a input box will appear for each constraint chosen
+
+<a name="forms-tab"></a>
+
+## Forms Tab
+
+The _Forms_ tab provides a way for you to inject form options into your table actions.
 
 -   One use case is to generate a form for fields within your table that may have business logic associated with them.
 
@@ -268,107 +298,3 @@ The third section, _Design_, provides a simple yet powerful design tool with the
 -   **Allow Multiple Insert** &mdash; This toggle lets you offer the power of _Has Many_ relationships, to your end-users, at their discretion, on a record by record level.
 
 -   **Fields in Section** &mdash; This "Drag and Drop" design box, in conjunction with the _Available Columns_ list, gives you the ability to select, order and arrange the columns you want to show to the end-users of this form.
-
-<a name="column-properties-section"></a>
-
-## Column Properties Section
-
-The _Column Properties_ section empowers you to design the column-level data definitions for your table.
-
-<a name="add-column"></a>
-
-### Add Column
-
-Clicking the _Add Column_ button will open a dynamic _Add Column_ dialog box with the power to define the data of your new column, based on the _Type_ of the column you select.
-
-<a name="default-column-definition-and-display-options"></a>
-
-#### Default Column Definition and Display Options
-
-In the top 4 definitions, you can name and configure the display features of your new column
-
--   **Name** &mdash; This is the identifying label that you want to use to reference this column in this table.
-
--   **Friendly Name** &mdash; This is the end-user focused label that you want to display for this column.
-
--   **Alignment** &mdash; This select box allows you to tell how you want the orientation of the cell data for this column to be displayed.
-
--   **Sequence** &mdash; This select box gives you the power to set the order in which you want to display this column.
-
-<a name="type-based-column-definitions"></a>
-
-#### Type-Based Column Definitions
-
-The _Type_ options are _Standard_, _Reference_ and _Calculated_. Each of these _Types_ has its own set of definition options that dynamically displays depending on which _Type_ you select.
-
-<a name="standard-type-definition-options"></a>
-
-#### Standard-Type Definition Options
-
--   **Column Type** &mdash; This drop-down allows you to set the type of data that you want to enforce in this column.
-
--   **Column is nullable** &mdash; This toggle gives you the power to tell whether or not this column can have, literally, nothing in it.
-
--   **Column is unique** &mdash; This toggle lets you tell whether or not to allow a value to exist more than once in this column.
-
-<a name="reference-type-definition-options"></a>
-
-#### Reference-Type Definition Options
-
-<a name="table"></a>
-
--   **Table** &mdash; This select-box allows you to tell which table to use to get the data you want it to display in this column.
-
-<a name="column"></a>
-
--   **Column** &mdash; This select box lets your tell which column has the data, from the selected reference table, that you want to use to fill this column.
-
-<a name="column-is-nullable"></a>
-
--   **Column is nullable** &mdash; This toggle gives you the power to tell whether or not this column can have, literally, nothing in it.
-
-<a name="calculated-type-definition-options"></a>
-
-#### Calculated-Type Definition Options
-
--   **Expression** &mdash; This code box lets you use [MySQL Functions](https://www.w3schools.com/sql/sql_ref_mysql.asp) to create the calculation statement, that results in a single "scalar value", to return for display in this column.
-
-<a name="column-validation-section"></a>
-
-## Column Validation Section
-
-The _Column Validation_ section allows you to set rules for the data before a user can edit values in the database.
-
-<a name="add-validation-rule"></a>
-
-### Add Validation Rule
-
-Clicking the _Add Validation Rule_ button will open a dialog box that will expand as you define the rule.
-
-#### Column validation rule fields
--   **Name** &mdash; This is the label you will use to identify the validation rule for this table.
-
--   **Type** &mdash; This drop-down allows you to set the type of validation rule you wish to create.
-
-    - **Required With** &mdash; This rule requires that a value for the _constraint column_ be present to create or edit the value for the _target column_.
-        
-        - example. You have a hired checkbox and a hired date field. You can require that the hired checkbox be checked before a value can be entered for the hire date.
-
-    - **Before** &mdash; This rule requires that the _target column_ be before the _constraint columns_.
-    - **After** &mdash; This rule requires that the _target column_ be after the _constraint columns_.
-    - **Required With Value** &mdash; This rule is similar to the _required with_ rule but allows you to set a specific value to require for the _constraint columns_.
-
-        - example. Instead of the hired checkbox, from the _required with_ example, you have a status field. You can require that a specific status is set, hired, before a value can be entered for the hire date.
-
--   **Target Column** &mdash; This drop-down allows you to select the column you wish the rule to take effect on
-
--   **Constraint Columns** &mdash; This multi-select allows you to choose all the columns you wish to use for
-
-- **Value Entry** &mdash; For rules that require values for the contraint columns, a input box will appear for each constraint chosen
-
-<a name="tags-section"></a>
-
-## Tags Section
-
-The _Tags_ section lets you add searchable words to your table. 
-> For example, if you wanted to find the Employees table, you might add the _Tag_ _ADMIN_ followed by the _Enter_ key. After that, you could add the _Tag_ _HUMAN RESOURCES_ followed by the _Enter_ key. This would provide your table with a searchable set of _Tags_.

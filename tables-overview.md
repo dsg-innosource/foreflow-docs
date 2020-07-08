@@ -54,4 +54,4 @@ When you attach a formatted data file to an email to the generated address, the 
 
 ## Properties
 
-Click the Properties button to modify a new or existing table.  You will be taken to the [Properties](/{{version}}/table-properties) page, where you can modify table properties and add or remove table columns.
+Click the Properties button to modify a new or existing table.  You will be taken to the [Properties](/{{version}}/tables-properties) page, where you can modify table properties and add or remove table columns.
