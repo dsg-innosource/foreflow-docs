@@ -2,9 +2,6 @@
 
 Here you can find out what's new and what used to be new but is no longer.
 
-> **Note:** [You can find out more about foreflow here.](https://www.resultdata.com/foreflow)
-
-  
 --- 
 
 ## Version 2.4
