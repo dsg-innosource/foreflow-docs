@@ -6,7 +6,7 @@ Here you can find out what's new and what used to be new but is no longer.
 
 ## Version 3.0.6
 
-**Sunday, January 26th, 2021**
+**Tuesday, January 26th, 2021**
 
 ## New Features & Improvements
 
