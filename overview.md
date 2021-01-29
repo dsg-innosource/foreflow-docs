@@ -8,7 +8,7 @@ Here you can find out what's new and what used to be new but is no longer.
 
 **Tuesday, January 26th, 2021**
 
-## New Features & Improvements
+### New Features & Improvements
 
 - upgrading foreflow is now significantly easier
 
