@@ -4,16 +4,29 @@ Here you can find out what's new and what used to be new but is no longer.
 
 ---
 
+## Version 3.1.0
+
+**Date TDB**
+
+### New Features & Improvements
+
+- users can choose to omit columns when creating a Table from a file
+- users can now remove Batches and Tasks from Packges and Batche respectively
+- password reset improvements
+- Table import 'replace data' improvements
+- Table validation rule improvements
+- Table creation improvements
+- Dataset listing improvements
+
+---
+
 ## Version 3.0.6
 
 **Sunday, January 26th, 2021**
 
-## New Features & Improvements
+### New Features & Improvements
 
 - upgrading foreflow is now significantly easier
-
 - foreflow now checks to make sure it's up to date
-
 - foreflow now checks to make sure PHP is up to date
-
 - foreflow now checks to make sure MySQL is up to date
