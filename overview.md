@@ -11,9 +11,6 @@ Here you can find out what's new and what used to be new but is no longer.
 ### New Features & Improvements
 
 - upgrading foreflow is now significantly easier
-
 - foreflow now checks to make sure it's up to date
-
 - foreflow now checks to make sure PHP is up to date
-
 - foreflow now checks to make sure MySQL is up to date
