@@ -1,4 +1,4 @@
-# foreflow version 2.4
+# foreflow version 2.x
 
 Here you can find out what's new and what used to be new but is no longer.
 
