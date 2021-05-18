@@ -4,19 +4,20 @@ Here you can find out what's new and what used to be new but is no longer.
 
 ---
 
-## Version 3.1.0
+## Version 3.0.8
 
-**Date TDB**
+**Friday, April 2nd, 2021**
 
 ### New Features & Improvements
 
 - users can choose to omit columns when creating a Table from a file
-- users can now remove Batches and Tasks from Packges and Batche respectively
+- users can now remove Batches and Tasks from Packages and Batches respectively
 - password reset improvements
 - Table import 'replace data' improvements
 - Table validation rule improvements
 - Table creation improvements
 - Dataset listing improvements
+- Scheduling improvements
 
 ---
 
