@@ -30,6 +30,7 @@
 -   ## Connections
 
     -   [Overview](/{{version}}/connections-overview)
+    -   [Connecting To foreflow](/{{version}}/connections-connecting-to-foreflow)
 
 -   ## Orchestration
 
