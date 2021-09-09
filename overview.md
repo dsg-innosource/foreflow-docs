@@ -4,6 +4,18 @@ Here you can find out what's new and what used to be new but is no longer.
 
 ---
 
+## Version 3.1
+
+**Monday, July 19th, 2021**
+
+### New Features & Improvements
+
+- Added compatibility improvements for RHEL
+- Form validation improvements
+- Scheduling improvements
+
+---
+
 ## Version 3.0.8
 
 **Friday, April 2nd, 2021**
