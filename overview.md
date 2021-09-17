@@ -4,6 +4,16 @@ Here you can find out what's new and what used to be new but is no longer.
 
 ---
 
+## Version 3.2
+
+**Friday, September 17th, 2021**
+
+### New Features & Improvements
+
+- Additional Scheduling improvements
+
+---
+
 ## Version 3.1
 
 **Monday, July 19th, 2021**
