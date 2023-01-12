@@ -14,7 +14,6 @@
 -   [About](#about)
 -   [Help](#help)
 -   [Search](#search)
-
 ## Primary Navigation
 
 The Primary Navigation menu in foreflow is located on the left side of the screen. This menu can be collapsed by clicking the left arrow button in the bottom of the sidebar. Depending on your rights as a user, you will see one or more of the following options:
