@@ -39,6 +39,7 @@
     -   [JasperReports Tasks](/{{version}}/orchestration-tasks-jasperreports)
     -   [Script Tasks](/{{version}}/orchestration-tasks-script)
     -   [SQL Tasks](/{{version}}/orchestration-tasks-sql)
+    -   [QuickBooks Online Import Tasks](/{{version}}/orchestration-quickbooks-online-import)
     -   [Talend Tasks](/{{version}}/orchestration-tasks-talend)
     -   [Dataset to Table Tasks](/{{version}}/orchestration-tasks-dataset-to-table)
     -   [Batches](/{{version}}/orchestration-batches)

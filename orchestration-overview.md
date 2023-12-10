@@ -40,6 +40,12 @@ The Shell Script task allows you to execute a shell script.
 
 The SQL execution task allows you to run SQL statements against a database connect.
 
+<a name="quickbooks-online-import"></a>
+
+#### QuickBooks Online Import
+
+The QuickBooks Online Import task allows you to import Customer and Invoice data into your QuickBooks Online account.  Read more about configuring a [QuickBooks Online Import task](/{{version}}/quickbooks-online-import).
+
 <a name="talend-job-execution"></a>
 
 #### Talend Job Execution
